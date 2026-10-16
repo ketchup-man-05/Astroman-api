@@ -1,0 +1,1870 @@
+{
+ "adoption": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 5 2026-09-30: children, progeny, acquisition of a child (family expansion houses 2,5,11). Secondary 8 = transfer/legality (my draft).",
+  "notes": "OURS-WEAK. 5 = children, 8 = receiving from others/legacy, 11 = fulfillment. No OCR hit for adoption in any Reader; weakest entry in the table. Remove on sight if it misbehaves. [batch-4 2026-10-01] T41a: RETIRED/DEACTIVATED - OURS-WEAK, no Reader trace in any book, ok_rate 0.2424. Not for verdicts.",
+  "primary": {
+   "cusp": 5,
+   "denial": [],
+   "provenance": "OURS-WEAK",
+   "success": [
+    5,
+    8,
+    11
+   ]
+  },
+  "provenance": "OURS-WEAK",
+  "relative_house": 5,
+  "retired": true,
+  "secondary": {
+   "cusp": 8,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    8,
+    11
+   ]
+  },
+  "source": "OURS (derived) - NO Reader trace found for adoption",
+  "success": [
+   5,
+   8,
+   11
+  ],
+  "success_is_desired": true,
+  "verdict_active": false
+ },
+ "alimony_settlement": {
+  "blocking": [
+   1,
+   5,
+   10
+  ],
+  "denial": [],
+  "notes": "OURS 2026-09-29. Success [2,6,11] = the money reaches the querent (mirrors Rout's 8th-CSL-must-signify-2-6-11 rule). Denial [1,5,10] = mechanical 12th-from negation. Needs fresh live outcomes before it is trusted. [batch-5 2026-10-01] T53a confirmed [2,6,11]/cusp 8 OURS, verdict-producing; flagged DERIVED (Rout's 8th-CSL rule applied to spouse - no direct citation) - first in the source-upgrade queue alongside business_loss. T53b: denial [1,5,10] -> blocking (standing 12th-from rule).",
+  "provenance": "OURS",
+  "relative_house": 8,
+  "source": "OURS (derived). Technique: Bhavat-Bhavam 2nd-from-7th = radical 8th, verified in Rout's boss-money case (youtube_research/third_party.md: 'boss's money = 2nd from 7th = radical 8th; the 8th CSL must signify 2-6-11'). Same method applied to the spouse.",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "bail_or_release": {
+  "denial": [
+   12
+  ],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED 2026-09-30: primary 11 = fulfillment of desire, reunion with society, release from restriction; secondary 2.",
+  "notes": "OURS-PENDING proposal for dual-cusp bail/release (11+2).; [batch-3 2026-10-01] T30a: NOT activated - stays OURS-PENDING, NOT authorized for verdicts (zero book basis on either side). verdict_active=false. T30b moot. NOTE: layer2_router currently passes flat denial to the judge; honoring verdict_active=false is a queued gated item (LOOP.md backlog). | [2026-10-01 user ruling] T30 ruled: redefined as bail-only per the source's own split (bail [6,11]/cusp 12 vs release [2,4,11]). Release stays with jail_release. verdict_active stays false pending activation ruling.",
+  "primary": {
+   "cusp": 11,
+   "denial": [
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    11
+   ]
+  },
+  "provenance": "OURS",
+  "relative_house": 12,
+  "secondary": {
+   "cusp": 2,
+   "denial": [
+    1,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    2,
+    11
+   ]
+  },
+  "source": "KP E-Zine, Vol.3 Issue 1, Feb 2009, O.V.N. Murthy, 'Judicial Remand & Bail', p.30: 'Getting Bail - 6,11 (10)' judged from the 12th cusp. Secondary practitioner tier (no Reader passage; 'bail' absent from Reader VI). Release-from-jail ([2,4,11]) stays with the already-active jail_release event.",
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true,
+  "verdict_active": false
+ },
+ "bankruptcy": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 12 2026-09-30: complete financial loss, insolvency, dissolution of wealth (negation of 1st and 2nd). Secondary 6 = the debts (my draft).",
+  "notes": "OURS-PENDING proposal for dual-cusp bankruptcy (12+6). [batch-4 2026-10-01] T49a: stays OURS-PENDING, not for verdicts (verdict_active:false). Polarity explicit: success_is_desired=False (YES = bankrupt = undesired).",
+  "primary": {
+   "cusp": 12,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    12
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 12,
+  "secondary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    6,
+    12
+   ]
+  },
+  "success": [
+   12
+  ],
+  "success_is_desired": false,
+  "verdict_active": false
+ },
+ "business_closure_decision": {
+  "denial": [
+   2,
+   7,
+   10,
+   11
+  ],
+  "notes": "POLARITY INVERTED: YES = close it (the decision is right); NO = keep running. Success [1,5,9] = end-of-business houses; 8/12 supporting per Ex.159. Denial [2,7,10,11] = business thriving -> closing is the wrong decision. Bosmia's mixed opinion (2-7-11 with 1-5-9-8 -> 'decision to close is perfect') matches the mixed->YES+DELAYS doctrine. 7th CSL is the secondary decider (gain check).",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.160, true pp.395-397 (verified; outcome 'Prediction proved right. He closed his Delhi office.'). Corroborating: Ex.159, true pp.393-394.",
+  "success": [
+   1,
+   5,
+   9
+  ],
+  "verdict_active": true
+ },
+ "business_loss": {
+  "denial": [],
+  "notes": "OURS. 12th-from negation of business_profit [2,7,11]. Split out of the old business_profit_loss key.; [batch-2 2026-10-01] T17a/T17b applied (see review_status).",
+  "provenance": "OURS",
+  "relative_house": 7,
+  "review_status": "DOUBLE-DERIVED (batch-2 T17a 2026-10-01): inverse of the OURS business_profit [2,7,11] array; no book-grounded alternative exists. Weakest-sourced table in batch 2 - FIRST in the primary-source upgrade queue. Kept ACTIVE (deactivation would un-answer real questions); T17b: inverse polarity, YES = the loss happens.",
+  "source": "OURS (derived)",
+  "success": [
+   1,
+   6,
+   10
+  ],
+  "success_is_desired": false
+ },
+ "business_partnership": {
+  "denial": [
+   6,
+   12
+  ],
+  "notes": "Denial has two grades: [6,12] = partnership breaks (clean NO); [5,8,12] = partner exploits you (NO + warn modifier, same source p.54). For succeed-shapes ('will my partnership business succeed') the business_profit D7 test (7th CSL -> 7 + 2/10/11) is layered as the profit half.",
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "source": "Astro Secrets & KP Part 3 (Shanmugam/Subramaniam), true p.54 (verified): 'If the sub lord of the 7th cusp is in the constellation of a planet signifying 6 and 11, you can have a partner in business. If signifies 6 and 12, Partnership will break.'",
+  "success": [
+   7,
+   11
+  ],
+  "verdict_active": true
+ },
+ "business_profit": {
+  "denial": [],
+  "notes": "OURS. 7 = business, 11 = gains, 2 = money. Split out of the old business_profit_loss key. 11 = gain/outcome (R3:16082 '11th house indicates benefit, profit, gains'), vs business_start's 10 = the activity itself. Start and profit are genuinely separate procedures: activity vs outcome. Denial group not stored; the router's OURS 12th-from fallback derives [3,8,12] as CANDIDATE_NEGATION (diagnostic only).; [batch-2 2026-10-01] T16a confirmed OURS [2,7,11]; 10=activity vs 11=gain split stands. T16b: denial [] strict-binary (no invented loss-negation array, Policy 2).",
+  "provenance": "OURS",
+  "relative_house": 7,
+  "source": "OURS (derived)",
+  "success": [
+   2,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "business_start": {
+  "denial": [],
+  "notes": "BOOK. R3:L22042 'For business, judge houses 2, 7 and 10.' Roles: 10 = the native's profession/activity (R6:9307 'As this is to do business later, by the native, include 10th house'); 7 = trade / negotiation / partnership (R6:9297); 2 = money. Denial group not given in the books.; [batch-2 2026-10-01] T15a confirmed [2,7,10]/cusp 7 strict-binary.",
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "source": "R3:L22042 ('For business, judge houses 2, 7 and 10.')",
+  "success": [
+   2,
+   7,
+   10
+  ],
+  "success_is_desired": true
+ },
+ "career_suitability": {
+  "denial": [
+   1,
+   5,
+   9
+  ],
+  "denial_provenance": "OURS",
+  "dual_active": false,
+  "dual_proposal_note": "Batch-2 T12a/T12b 2026-10-01: provenance DOWNGRADED BOOK->OURS (no citation found; do not claim BOOK without a source). Suitability weights the 10th (profession) as judging cusp (OURS-PENDING); job_get_service stays cusp 6. Success group [2,6,10,11] unchanged (reuses the book group). Secondary cusp-1 (SELF) remains NOT ACTIVE per Policy 1. The 0.17 ok_rate is a Layer-1/2 routing problem, flagged for the round-3 loop.",
+  "notes": "[2026-10-06] OURS->BOOK per user ruling. Field-specific deciders per Bosmia: acting/cinema/artistic: 5th CSL -> {5,6,10} (Bosmia Ex.53, PDF pp.161-162: \"If the cuspal sub lord of the 5th cusp be the significator of 5th (art)-6th (efficiency in work)-10th (business/job/reputation), one can get success in acting.\"); astrology/occult: 9th CSL -> {9,6,10} (analogy: 9th=astrology, Astro Secrets Part 2 p.259); politics/power: 10th CSL -> {6,10,11} (analogy: 10th=profession/status). L3 uses _suitability_procedure with field-specific decider. Denial [1,5,9] retained from prior ruling (12th-from 2,6,10).",
+  "primary": {
+   "cusp": 10,
+   "denial": [],
+   "provenance": "BOOK",
+   "success": [
+    2,
+    6,
+    10,
+    11
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "secondary": {
+   "cusp": 1,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    1,
+    5,
+    11
+   ]
+  },
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.53, PDF pp.161-162 (acting variant, exact wording); analogies for astrology/politics variants.",
+  "success": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "childbirth": {
+  "denial": [
+   1,
+   4,
+   10
+  ],
+  "notes": "Denial corrected 2026-09-30: R3:~L25786-89 (direct childbirth doctrine) — 'if the sub lord of the 5th cusp is the significator of 1 or 4 or 10 he can never have a child at all. Houses 1, 4, 10 are detrimental to the birth of children, being the 12th (negation) to houses 2, 5 and 11.' Table previously had only [4] from R4:L6405 (marriage-denial discussion context); the fuller [1,4,10] is the complete 12th-from set.; [batch-3 2026-10-01] T34a confirmed [2,5,11]/[1,4,10]/cusp 5, DOCTRINE (R4:L13229; R6:L10939; R3:~L25786-89).",
+  "provenance": "BOOK",
+  "relative_house": 5,
+  "source": "R4:L13229 ('For children, one has to examine the houses 2, 5 and 11'); R6:L10939 ('The query is about child birth. Houses 2, 5 and 11 are to ...')",
+  "success": [
+   2,
+   5,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "chitfund_kitty_receive": {
+  "denial": [
+   5,
+   8,
+   12
+  ],
+  "notes": "NEEDS-USER-RULING (l12_repair/layer3_procedures.json): (1) lottery-rule default vs money_gain fallback (2nd CSL -> 2-6-11) for no-luck turn-payouts; (2) confirm denial [5,8,12]. Deciding cusp 11 -> Bosmia 11th-CSL-mixed->NO exception applies.",
+  "provenance": "OURS-PENDING",
+  "relative_house": 11,
+  "source": "DEFAULT: nearest book analogy is Bosmia, Prashna Jyotish, true p.157 (verified): 11th CSL -> 2/6/11 + 3rd connection, clean of 5/8/12, 11th sub-lord/star-lord not retrograde -> win a lottery prize. (The one ezine Bhishi case uses a proprietary non-KP 'TSP' method -- not citable.)",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "coma_recovery": {
+  "denial": [
+   6,
+   8,
+   12
+  ],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 8 2026-09-30 (arrays still DRAFT, NOT ACTIVE). 8 = deep medical crisis, severe trauma, danger to longevity, unconsciousness. Primary judges the crisis cusp on cure [5,11] vs disease/danger [6,8,12]. Secondary 1 = body/vitality (USER-CONFIRMED 2026-09-30 ('do it your way'), not user-stated - confirm). Arrays accepted per user delegation; activation on user's word.",
+  "notes": "OURS-PENDING proposal for dual-cusp coma (1+12). [batch-5 2026-10-01] T54a: stays OURS-PENDING, not for verdicts (verdict_active:false); no book-grounded procedure.",
+  "primary": {
+   "cusp": 8,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    5,
+    11
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 8,
+  "secondary": {
+   "cusp": 1,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    1,
+    5,
+    11
+   ]
+  },
+  "success": [
+   5,
+   11
+  ],
+  "success_is_desired": true,
+  "verdict_active": false
+ },
+ "competition_win": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 6 2026-09-30: defeating the opponent, as 6th is the 12th (loss) from the 7th (the rival). Secondary 11 = the prize (my draft).",
+  "notes": "RETIRED 2026-10-01 (batch-1 T1b). Key kept so historical references/scores do not break; routing already aliases competition_win->contest_win (F4). The live dual table is under contest_win. Former OURS-PENDING dual draft preserved below for history. | OURS-PENDING proposal for dual-cusp competition (6+11).",
+  "primary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    6,
+    11
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 6,
+  "retired": true,
+  "secondary": {
+   "cusp": 11,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    11
+   ]
+  },
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true,
+  "superseded_by": "contest_win"
+ },
+ "contest_win": {
+  "denial": [
+   5,
+   12
+  ],
+  "denial_provenance": "OURS",
+  "dual_active": true,
+  "dual_proposal_note": "APPROVED/ACTIVE 2026-10-01 (batch-1 T1a/T1b). Migrated from competition_win: USER-RULED primary 6 2026-09-30 (defeating the opponent, 6th = 12th from 7th the rival). Secondary 11 = the prize.",
+  "notes": "BOOK success [6,11] (R6:L8001-8004: competition/litigation/election - significator of 6 and 11 -> win). Denial: none given - strict-binary (T1c). DUAL TABLE ACTIVE 2026-10-01 (T1a/T1b): primary cusp 6 = defeating the opponent (6th is the 12th/loss from the 7th, the rival - USER-RULED 2026-09-30); secondary cusp 11 = the prize. Single live table: the classifier already aliases competition_win->contest_win (F4), so one routed event = one table. | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [5,12]: Astro Secrets & KP Part 2 (improving 1,2,3,6,10,11 vs non-improving 4,5,7,8,9,12; user narrows to [5,12]). OURS tier: practitioner compilation, not KSK Reader. (R6:L8001-8007 gives retrograde mechanism only for competition.)",
+  "primary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "BOOK; primary-cusp assignment USER-RULING 2026-09-30",
+   "success": [
+    6,
+    11
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "secondary": {
+   "cusp": 11,
+   "denial": [],
+   "provenance": "OURS (dual secondary approved batch-1 T1a, 2026-10-01)",
+   "success": [
+    11
+   ]
+  },
+  "source": "R6:L8001-8004",
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "court_case_litigation_win": {
+  "denial": [
+   5,
+   12
+  ],
+  "denial_provenance": "BOOK",
+  "notes": "Denial group not given. (R2 11th-house section notes litigation success via 11th-house periods, consistent.) Batch-1 2026-10-01 (T8a): litigation_win's separate dual arrays retired (key kept with pointer); single BOOK table retained. Secondary cusp-11 [2,6,11] draft NOT activated (T8b). | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [5,12]: R6:L9212 ('Appeal-Successful or not': sub-lord of 3rd cusp in constellation of significator of 5 and 12 -> 'one cannot have success'); confirmed by Astro Secrets & KP Part 2 ('wins the litigation' passage; lords of 7,8,12,5 vs 1,2,6,11). Note: Reader passage judges from 3rd cusp (appeal); user rules the denial ports to litigation.",
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "source": "R6:L8001-8004 ('If one wants to know whether he will win in the ... competition, or litigation or election, if the significator of the houses 6 and 11 ... he will win.')",
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "disease_illness": {
+  "denial": [],
+  "notes": "This group indicates disease presence; 'denial' here means no-disease. Recovery is a separate event (see recovery_cure).; [batch-3 2026-10-01] T35a confirmed [6,8,12]/cusp 6 (BOOK); T35b denial [] strict-binary; INTERPRETATION: a no-disease chart reads as OTHER, not NO (structurally what CANDIDATE_NEGATION/diagnostic-only achieves).",
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "source": "R3:L8540-8543 ('the significator of the houses 6, 8 and 12'); R3:L12394 ('consideration of the houses 6, 8 and 12 will indicate one's ...')",
+  "success": [
+   6,
+   8,
+   12
+  ],
+  "success_is_desired": false
+ },
+ "divorce": {
+  "denial": [
+   2,
+   7,
+   11
+  ],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 7 2026-09-30: spouse, marriage bond, legal partnerships (CSL of 7 evaluated against separation houses 1,6,10). Secondary 6 = legal finality (my draft). ",
+  "notes": "BOOK: success [1,6,10] R6:L7991; denial [2,7,11] = marriage continues. [batch-4 2026-10-01] T46a: confirmed [1,6,10]/[2,7,11]/cusp 7 (BOOK). T46b: inverse polarity confirmed (success_is_desired=False; YES = divorce happens).",
+  "primary": {
+   "cusp": 7,
+   "denial": [
+    2,
+    7,
+    11
+   ],
+   "provenance": "BOOK",
+   "success": [
+    1,
+    6,
+    10
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "secondary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    6,
+    11
+   ]
+  },
+  "source": "R4:L9477 ('Divorce is to be seen from houses one, six and ten.')",
+  "success": [
+   1,
+   6,
+   10
+  ],
+  "success_is_desired": false
+ },
+ "donation_receive": {
+  "denial": [],
+  "notes": "8th CSL decider (the 8th is the receiving channel; standing 2026-10-04 ruling). Full 2-6-11 -> YES+DELAYS; partial -> PARTIAL; silent -> OTHER (never NO).",
+  "provenance": "BOOK",
+  "relative_house": 8,
+  "source": "Bosmia Easy Way Ex.125 true pp.316-318 (outcome-verified): 8th CSL -> 2-6-11 -> 'getting donation is sure, but 8 gives you some delay and dejection'; actual: 'Prediction proved right. He did not get as expected' (PARTIAL).",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "education_general": {
+  "denial": [],
+  "notes": "R3:L9393-9397 also states houses 4 and 9 'will give education' (4th = basic, 9th = higher). Recorded success is the examination-specific [4,11]. [batch-4 2026-10-01] T50c: restored 9 per R3:L9393-97 -> [4,9]/cusp 9. 11th is conditional-only (scholarship/fulfillment, OURS), not core - same treatment as education_higher T36b. Citation-coverage fix: BOOK label now covers the full array.",
+  "provenance": "BOOK",
+  "relative_house": 9,
+  "source": "R3:L6807 ('Success in education, examinations also (4&11).')",
+  "success": [
+   4,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "education_higher": {
+  "denial": [],
+  "notes": "BOOK. R3:L9393-9397 verified verbatim. The 11th-house education passage (R3:16082-16086) is SCHOLARSHIP-specific ('11th indicates benefit, profit, gains... the house of education will have connection with the 11th') — gain, not completion. Candidate for a conditional 11th path in the v5.1 schema, not the core group.; [batch-3 2026-10-01] T36a/b/c confirmed [4,9]/cusp 9 (BOOK R3:L9393-97); 11th conditional (scholarship/funding) only; denial [] strict-binary.",
+  "provenance": "BOOK",
+  "relative_house": 9,
+  "source": "R3:L9393-9397 ('Mars owner of 4, education and 9, higher education ... houses 4 and 9, they will give education.')",
+  "success": [
+   4,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "election_win": {
+  "denial": [
+   5,
+   12
+  ],
+  "denial_provenance": "OURS",
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED cusps 2026-09-30 (arrays still DRAFT, NOT ACTIVE). Primary 6 = defeating the rival candidate in a contested race (mirrors competition). Secondary 11 = claiming the victory/seat. Arrays are my draft - user to confirm.",
+  "notes": "OURS proposal. Batch-1 2026-10-01 (T9a): primary cusp 6 [6,11] ACTIVE (defeating the rival candidate, mirrors competition). Secondary cusp 11 [10,11] present as DIAGNOSTIC-ONLY (claiming the victory/seat) - logged, never verdict-changing; activation needs measured data. (T9b): denial [] strict-binary - book gives none; no denial array invented. | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [5,12]: Astro Secrets & KP Part 2 ('comes out victorious in election' passage). OURS tier: practitioner compilation. (R6:L8001-8007 gives retrograde mechanism only for election.)",
+  "primary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "USER-RULING (primary cusp 6 ACTIVE 2026-10-01, batch-1 T9a)",
+   "success": [
+    6,
+    11
+   ]
+  },
+  "provenance": "OURS (primary USER-RULING active 2026-10-01)",
+  "relative_house": 6,
+  "secondary": {
+   "cusp": 11,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    10,
+    11
+   ]
+  },
+  "secondary_status": "diagnostic_only - present for logging, never verdict-changing (batch-1 T9a, 2026-10-01)",
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "exam_appear": {
+  "denial": [
+   6,
+   8,
+   12
+  ],
+  "notes": "LAGNA-DEPOSITION test, not a CSL-chain test: malefics or 6/8/12-lord deposited in lagna -> NO; clean lagna -> YES. 3rd CSL courage pre-test is diagnostic texture only.",
+  "provenance": "BOOK",
+  "relative_house": 1,
+  "source": "K.S. Krishnamurti, KP Reader VI: Horary Astrology, true p.198 (verified): 'Whether one will be able to appear for the examination or not is to be seen from the horary lagna... If the horary lagna is spoiled due to the deposition of natural malefics or lord of 6 or 8 or 12, the native will not be able to make an attempt.'",
+  "success": [
+   1
+  ],
+  "verdict_active": true
+ },
+ "exam_competitive": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "PROPOSAL 2026-09-30, NOT ACTIVE. Competitive exams are two-stage: primary 9 = clear the exam (keeps the BOOK [4,9,11] table); secondary 6 = actually secure the service (reuses the BOOK job_get_service [2,6,10,11] table). A split (exam YES + service NO) -> OTHER/PARTIAL_OR_MIXED, which matches reality (clears written, misses final merit / reserve list). Plain non-competitive job questions stay single-cusp on job_get_service.",
+  "notes": "Stated as planet+house combination for competitive exams specifically. [batch-4 2026-10-01] T50a: confirmed [4,9,11]/cusp 9 (BOOK R3:L16037).",
+  "primary": {
+   "cusp": 9,
+   "denial": [],
+   "provenance": "BOOK",
+   "success": [
+    4,
+    9,
+    11
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 9,
+  "secondary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "BOOK",
+   "success": [
+    2,
+    6,
+    10,
+    11
+   ]
+  },
+  "source": "R3:L16037 ('Mars, Mercury and Jupiter promise success if they are connected with 4, 9 and 11.' — under 'Competitive examination')",
+  "success": [
+   4,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "exam_distinction_rank": {
+  "denial": [],
+  "notes": "v10.2: rank/distinction questions (not pass/fail). 1st and 4th CSLs joint deciders.",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "Book: 1st+4th CSL -> [3,6,10] with 6 as veto (from EXAM_MISS_COVERAGE_REPORT.md E1-6)",
+  "success": [
+   3,
+   6,
+   10
+  ],
+  "verdict_active": true
+ },
+ "exam_pass_general": {
+  "denial": [],
+  "notes": "Same as education_general; the (4&11) statement covers examinations. [batch-4 2026-10-01] T50b: kept separate from education_general (question semantics differ despite similar arrays). Untouched by T50c.",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "R3:L6807 ('Success in education, examinations also (4&11).')",
+  "success": [
+   4,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "financial_crisis_relief": {
+  "denial": [
+   1,
+   8,
+   9,
+   12
+  ],
+  "notes": "Rare case where the DENIAL ARRAY is book-given verbatim. YES = relief comes; NO = the crunch persists. Timing book-backed ('during the joint period of 2-6-11').",
+  "provenance": "BOOK",
+  "relative_house": 2,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.13, true pp.73-74 (verified): 'If 2nd cusp sub lord signifies 2-6-11, then one can get good financial earning, during the joint period of 2-6-11.' Negative form book-given: 'Positive bhava are 2-6 and negative bhava are 1-9-8-12.'",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "financial_help_receive": {
+  "denial": [
+   5,
+   8,
+   12
+  ],
+  "notes": "The 3 = approach/negotiation (Joshi: 'If 3-9 HS operates, then talk between two parties only' -- talk without money is not help received; require 3 WITH 2/6/11). CAVEAT: 8 is positive in Joshi/Naik (helper's money) AND in the denial set -- keep book-form [5,8,12] or drop 8 is NEEDS-USER-RULING. Deciding cusp 11 -> Bosmia 11th-CSL-mixed->NO exception applies.",
+  "provenance": "BOOK",
+  "relative_house": 11,
+  "source": "Sharad Joshi, Krishnamurthy Padhdhati, true p.72 (verified): 'SL of the 6-8-11 with 2-3-6-11 HS, then the native will get the loan. 5-8-12 HS negative for loans.' Corroborating: S. Naik, K.P. Dynamics, true p.56: Financial Help -> 8,2,6,11.",
+  "success": [
+   2,
+   3,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "foreign_travel": {
+  "denial": [],
+  "notes": "Denial group not given.; [batch-3 2026-10-01] T37a/b confirmed [3,9,12]/cusp 12 (BOOK R6:L14856); denial [] strict-binary.",
+  "provenance": "BOOK",
+  "relative_house": 12,
+  "source": "R6:L14856 ('For overseas one is to judge the houses 3, 9, and 12.')",
+  "success": [
+   3,
+   9,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "fraud_deception": {
+  "denial": [
+   2,
+   11
+  ],
+  "notes": "Inverted desirability: SUCCESS means the fraud DID happen (8+12); DENIAL means the querent is safe (2+11). Added per user ruling 2026-09-28 (W197 case).; [batch-3 2026-10-01] T27a confirmed [8,12]/[2,11]/cusp 12 inverse (USER-RULING 2026-09-28); T27b denial [2,11] PROVISIONAL (diagnostic only, no hard flip; sensitive topic, zero data).",
+  "provenance": "USER-RULING",
+  "relative_house": 12,
+  "source": "USER-RULING 2026-09-28 (not a Reader citation): fraud/cheating/hidden conspiracies = 12th house (secret enemies, loss), partnered with 8th (distress/penalty)",
+  "success": [
+   8,
+   12
+  ],
+  "success_is_desired": false
+ },
+ "friend_to_romance": {
+  "denial": [
+   4,
+   6
+  ],
+  "notes": "USER-RULING 2026-09-28 (refined same day): denial=[4,6] are STRAIGHT NO (4th=12th-from-5th, 6th=12th-from-7th). 10th/12th are NOT denial: they are soft houses meaning delay, or that the relationship ends abruptly/painfully (report-only complication, never changes the verdict). User's rule: '12th house is a straight no' applies via the 12th-from negation (4th, 6th); 10th=12th-from-11th and 12th=8th-from-5th afflict the outcome, they don't deny it. Supersedes BOOK [7,11]/[6,12] (R6:10570-10578) for romance events.",
+  "provenance": "USER-RULING",
+  "relative_house": 5,
+  "retire_note": "Batch-2 T20a 2026-10-01 (Policy 4): merged at Layer 3 via CANONICAL_EVENT_ALIASES. ok_rate 0.04 - the split existed on paper only (identical arrays/cusp to romance_new_entry). Routing label kept; reversible by removing the alias. T20b moot: blocking [10] inherited from T3b.",
+  "soft_houses": [
+   10,
+   12
+  ],
+  "source": "User Rule 3 (2026-09-28): friend -> dating",
+  "success": [
+   5,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "imprisonment": {
+  "denial": [
+   11
+  ],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED 2026-09-30: primary 12 = jail, institutionalization, loss of physical freedom; secondary 6 = the penal action.",
+  "notes": "OURS-PENDING proposal for dual-cusp imprisonment (12+6). [batch-4 2026-10-01] T48a: stays OURS-PENDING, not for verdicts (verdict_active:false). Polarity explicit: success_is_desired=False (YES = imprisoned = undesired). | [2026-10-01 user ruling] T48 adopted: success [12] -> [2,3,8,12] per R6:L17800. verdict_active stays false pending user's activation ruling.",
+  "primary": {
+   "cusp": 12,
+   "denial": [
+    11
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    12
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 12,
+  "secondary": {
+   "cusp": 6,
+   "denial": [
+    11
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    6,
+    12
+   ]
+  },
+  "source": "R6:L17785-17800 ('Therefore the houses to be judged for imprisonment are 2,3,8 and 12.' — 2=separation from family, 3=12th-from-4th leaving residence, 8=restriction, 12=confinement; Rahu karaka for jail.)",
+  "success": [
+   2,
+   3,
+   8,
+   12
+  ],
+  "success_is_desired": false,
+  "verdict_active": false
+ },
+ "infidelity_detect": {
+  "denial": [],
+  "exception": {
+   "params": {
+    "cusp": 5
+   },
+   "procedure": "infidelity_detect",
+   "provenance": "OURS"
+  },
+  "notes": "EXCEPTION EVENT 2026-09-29: judged by layer2b procedure infidelity_detect (5th CSL signifying 5+8 -> affair indicated). Softer tone required in the reading regardless of verdict. Batch-1 2026-10-01 (T7a/T7b): exception procedure confirmed, no standard arrays. 5+8 natal-to-prashna adaptation APPROVED, RESTRICTED to infidelity_detect ONLY, marked OURS-adaptation (natal method: partner_fidelity.md Video 1; no prashna walkthrough found).",
+  "provenance": "OURS",
+  "relative_house": 5,
+  "source": "OURS (derived). Phase-2 youtube_research/extra/partner_fidelity.md Video 1: 5+8 = scandalous/illegal love affair (5th CSL + 8th CSL); natal method, adapted to prashna — no prashna walkthrough found.",
+  "success": [],
+  "success_is_desired": false
+ },
+ "inheritance_claim": {
+  "blocking": [
+   1,
+   7,
+   10
+  ],
+  "denial": [],
+  "notes": "8th = unearned wealth/legacy verified. Success [2,8,11] OURS. Denial [1,7,10] is mechanical 12th-from negation.; [batch-3 2026-10-01] T33a confirmed [2,8,11]/cusp 8; T33b denial [1,7,10] moved to blocking/soft per the standing 12th-from rule (pure mechanical derivation, no further rationale stated). [2026-10-15] relative_house 8->9 per MISS_ANALYSIS (Bosmia Ex.127: 9th CSL -> {2,11}); the 2026-10-14 audit's \"cusp\" key was dead — promoted to relative_house, the single source of truth. property_sale/spouse_return_estranged/education_general audit cusps REVERTED (contradicted by Ex.60/corpus/R3 notes).",
+  "provenance": "BOOK-premise/OURS-array",
+  "relative_house": 9,
+  "source": "BOOK premise: \"The 8th house suggests one's unearned [wealth]\"; \"all that is related to death such as inheritance legacies\" (Readers)",
+  "success": [
+   2,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "jail_release": {
+  "denial": [],
+  "notes": "12th = confinement verified. Release = return home: 4 = home, 2 = family, 11 = fulfillment. OURS array. Distinct from court-win [6,11]: release is not winning, it is getting out. [batch-4 2026-10-01] T48b: confirmed [2,4,11]/cusp 12 as verdict-producing BOOK-premise/OURS-array doctrine. T48c: denial [] strict-binary.",
+  "provenance": "BOOK-premise/OURS-array",
+  "relative_house": 12,
+  "source": "BOOK premise: 12th = imprisonment/secret enemies (Readers, multiple)",
+  "success": [
+   2,
+   4,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "job_change": {
+  "deciding_cusp": 9,
+  "denial": [],
+  "notes": "Supporting 3,12. Unblocked 2026-10-06.",
+  "provenance": "BOOK",
+  "relative_house": 9,
+  "source": "Bhatnagar p.79; Taneja p.108; Joshi p.54",
+  "success": [
+   5,
+   9
+  ],
+  "verdict_active": true
+ },
+ "job_continuity": {
+  "denial": [
+   1,
+   5,
+   9,
+   12
+  ],
+  "notes": "Continuity of the current engagement. YES = continues (2-6-10); NO = will leave/change (1-5-9-12). 11th-CSL 'retained' rule ([1,2,4,10,11], K.P. Sub Lord and the Principle true p.19) as secondary confirm is NEEDS-USER-RULING (l12_repair/layer3_procedures.json).",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.79, true pp.218-219 (verified): 'If the sub lord of the 10th or 6th cusp be the significator of 1-5-9-12 the querent can change job... If the cuspal sub lord of the 6th or 10th be the significator of 2-6-10, job or earning is promised.'",
+  "success": [
+   2,
+   6,
+   10
+  ],
+  "verdict_active": true
+ },
+ "job_get_service": {
+  "confidence_split": {
+   "core": [
+    6,
+    10
+   ],
+   "note": "batch-2 T13b 2026-10-01: METADATA ONLY for confidence weighting; the judge does not read this key. Book gives the group without internal ranking.",
+   "status": "OURS-PENDING",
+   "supporting": [
+    2,
+    11
+   ],
+   "verdict_gating": false
+  },
+  "denial": [
+   1,
+   5,
+   9
+  ],
+  "denial_provenance": "OURS",
+  "notes": "GROUP NOT GIVEN. No explicit denial group for getting service found; do not derive.; [batch-2 2026-10-01] T13a confirmed [2,6,10,11] strict-binary. T13b confidence split added as metadata only. | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [1,5,9]: kupdf compilation ('Consider the houses 1, 5 and 9th for change of profession or service (being 12th from 2, 6 and 10 respectively)'); RedAstrologer/Medium ('unfavorable is 1 5 9'); Astro Secrets & KP (5th negative for promotion; Saturn signifying 5th and 9th not good for promotion). OURS tier: practitioner compilations/blogs, not KSK Reader. User rules this source-attested, overriding the prior 'do not derive' note. Prior frozen note 'No explicit denial group found; do not derive' (batch-2 T13) is superseded by this ruling.",
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "source": "R3:L22572 ('Judge the significators of the house 2, 6, 10 and 11 for ...'); R6:L16347 ('2,6,10 and 11. These houses put together indicate promotion.')",
+  "success": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "job_loss_dismissal": {
+  "denial": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "notes": "OURS. 12th-from negation of job success [2,6,10,11] (12 from 2=1, from 6=5, from 10=9, from 11=10). No book group found. [batch-5 2026-10-01] T55a confirmed [1,5,9,10]/cusp 6 OURS, verdict-producing; inverse verified (success_is_desired False: YES = job loss happens); flagged DERIVED (no book group).",
+  "provenance": "OURS",
+  "relative_house": 6,
+  "source": "OURS (derived)",
+  "success": [
+   1,
+   5,
+   9,
+   12
+  ],
+  "success_is_desired": false
+ },
+ "job_relocation": {
+  "denial": [],
+  "notes": "NEEDS-USER-RULING (l12_repair/layer3_procedures.json): (1) adopt the combined 10th-CSL + 4th-CSL test, or simply reuse transfer_job's procedure? (2) denial array for the new test.",
+  "provenance": "OURS-PENDING",
+  "relative_house": 10,
+  "source": "DEFAULT synthesis (no book covers voluntary career-driven relocation): (a) KSK Reader III, true p.390: 10th CSL 2-of-3 from {3,9,12} = place change with the job; (b) K.P. Sub Lord and the Principle, true p.19 (verified): 4th CSL -> 3,12 = change in residence.",
+  "success": [
+   3,
+   9,
+   12
+  ],
+  "verdict_active": true
+ },
+ "job_voluntary_exit": {
+  "denial": [
+   2,
+   6,
+   10
+  ],
+  "notes": "POLARITY: YES = the querent leaves (success = ending houses); NO = stays (denial = service-promise). Whether pure voluntary exit with NO next job uses the same change-of-job test is NEEDS-USER-RULING. Timing book-backed ('during the joint period of the significators of 1-5-9').",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.79 hint, true pp.218-219 (verified): 'If the sub lord of the 10th or 6th cusp be the significator of 1-5-9-12 the querent can change job during the joint period of the significators of 1-5-9.'",
+  "success": [
+   1,
+   5,
+   9,
+   12
+  ],
+  "verdict_active": true
+ },
+ "kidnapping_return": {
+  "denial": [
+   12
+  ],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 12 2026-09-30 (arrays still DRAFT, NOT ACTIVE). 12 = secret confinement, bondage, restraint, forced isolation. Primary judges the confinement cusp: 11 = release vs 12 = continued bondage. Secondary 1 = victim's safety (USER-CONFIRMED 2026-09-30 ('do it your way') - alternative: 11 for reunion; confirm). Arrays accepted per user delegation; activation on user's word.",
+  "notes": "OURS-PENDING proposal for dual-cusp kidnapping (1+12). [batch-5 2026-10-01] T56a: stays OURS-PENDING, not for verdicts (verdict_active:false); do not activate unverified proposals.",
+  "primary": {
+   "cusp": 12,
+   "denial": [
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    11
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 12,
+  "secondary": {
+   "cusp": 1,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    1,
+    5,
+    11
+   ]
+  },
+  "success": [
+   11
+  ],
+  "success_is_desired": true,
+  "verdict_active": false
+ },
+ "litigation_win": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED primary 6 2026-09-30: overcoming adversaries, conquering enemies, winning court cases. Secondary 11 = fulfillment of claim (my draft).",
+  "notes": "RETIRED 2026-10-01 (batch-1 T8a). Key kept so historical references do not break; routing already aliases litigation_win->court_case_litigation_win (F4). Single BOOK table retained under court_case_litigation_win. Secondary cusp-11 [2,6,11] draft NOT activated (T8b). | OURS-PENDING proposal for dual-cusp litigation (6+11).",
+  "primary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    6,
+    11
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 6,
+  "retired": true,
+  "secondary": {
+   "cusp": 11,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    2,
+    6,
+    11
+   ]
+  },
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true,
+  "superseded_by": "court_case_litigation_win"
+ },
+ "loan_borrow_get": {
+  "denial": [],
+  "notes": "OURS. 6 = debt/obligation, 11 = fulfillment (getting the loan). Books only cover repayment (12th cusp), nothing on obtaining.; [batch-2 2026-10-01] T24a confirmed [6,11]/cusp 6; provenance OURS-PENDING (book covers repayment via the 12th, not obtaining). T24b: denial [] strict-binary. | [2026-10-01 user ruling] T24 ruled: success stays [6,11] as the required core (book's borrowing procedure, R6:L12252+, is 6th-cusp-centered with no house array); [2] (money receipt) added as supporting, not required. Both arrays OURS.",
+  "provenance": "OURS-PENDING",
+  "relative_house": 6,
+  "source": "OURS (derived)",
+  "success": [
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "loan_repay_clear": {
+  "denial": [],
+  "exception": {
+   "params": {
+    "cusp": 12
+   },
+   "procedure": "loan_repay",
+   "provenance": "BOOK:R6:L12420-12435"
+  },
+  "notes": "Method: judge the 12th cusp; if its sub-lord (or its star lord) is retrograde, 'one cannot either invest or repay loan'. No house-group arrays given. EXCEPTION EVENT: judged by layer2b procedure loan_repay (12th CSL + retrograde/star-lord test), not by house arrays.; [batch-3 2026-10-01] T28a POLARITY FIX: success_is_desired False->True. Question is 'will I be able to clear my loans' - clearing IS desired, YES must not be inverted. Method-only confirmed (12th CSL + exception-local retro test; the one place retro may deny, book-verified for this event). T28b: 'can I invest safely' is a SEPARATE future event, not folded in.",
+  "provenance": "BOOK",
+  "relative_house": 12,
+  "source": "R6:L12420-12435 ('Will I be able to clear off loans? When? ... judge the 12th cusp ...')",
+  "success": [],
+  "success_is_desired": true
+ },
+ "longevity": {
+  "denial": [
+   12,
+   7,
+   2
+  ],
+  "notes": "Denial = Maraka houses: 'houses 12, 7 and 2 are the Maraka Houses' (12th to 1, 8, 3 respectively). [batch-5 2026-10-01] T57a confirmed [1,8,3]/[12,7,2]/cusp 1 BOOK; denial stays HARD - book-given maraka houses (12th to 1, 8, 3), the clean exception to the 12th-from-soft rule; book array order kept.",
+  "provenance": "BOOK",
+  "relative_house": 1,
+  "source": "R3:L9908-9916 ('Houses 1, 8 and 3 are to be examined to ascertain, whether one will live long ... So one is to judge the houses 1, 8 and 3 and then 2, 7 and 12.')",
+  "success": [
+   1,
+   8,
+   3
+  ],
+  "success_is_desired": true
+ },
+ "lottery": {
+  "denial": [
+   5,
+   8,
+   12
+  ],
+  "notes": "Strict school: full 2-6-11 + 3rd + direct -> YES; retro/star-retro -> NO; 5/8/12 -> NO; else NO (approved R1 form). Replaces the contradicted [2,5,11] array for lottery questions; stock_speculation keeps its array for share-market questions.",
+  "provenance": "BOOK",
+  "relative_house": 11,
+  "source": "Bosmia Prashna Jyotish Ex 31 true pp.158-159 (outcome-verified): 11th CSL -> 2-6-11 + 3rd connection, NOT 5/8/12, CSL + star-lord direct -> win a lottery prize. KSK Reader VI true pp.213-214 (outcome-verified): 11th CSL retro or in retro lord's star -> cannot win; direct + 2/6/11 -> wins. User picked the Bosmia/KSK-VI school from the 5-way split (money batch-2, 2026-10-05).",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "love_affair": {
+  "blocking": [
+   10
+  ],
+  "canonical_name": "relationship_ongoing",
+  "denial": [
+   4
+  ],
+  "notes": "USER-APPROVED 2026-09-30 (decision 2): success [5,11] OURS-constructed (5th=romance + 11th=fulfillment of desire); denial [4] was already book-given (R4:L6405, '4th house indicates failure in love affairs'), [10] added as OURS (10th=12th-from-11th, negation of fulfillment). Primary cusp 5. Strictly OURS/proposal: classical texts did not codify pre-marital romance arrays; never present as verbatim book. Supersedes the 2026-09-29 'left unsupported' state (success was [] so YES was impossible). Batch-1 2026-10-01 (T2a): denial [4] HARD (OURS derivation: 4th = 12th-from-5th, loss of romance; R4:L6405 cited in 2026-09-30 note); [10] moved to blocking/soft - report-only, never verdict-changing (10th = 12th-from-11th, negation of fulfillment). (T2b): canonical name relationship_ongoing APPROVED; live key stays love_affair until round-4 regeneration (classifier alias relationship_ongoing->love_affair).",
+  "provenance": "OURS",
+  "relative_house": 5,
+  "source": "R4:L6405 ('5th house shows either love affair or children.')",
+  "success": [
+   5,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "love_reciprocation": {
+  "denial": [
+   4,
+   10
+  ],
+  "notes": "USER-APPROVED 2026-09-30 (decision 1): 'does he/she love me'. Primary cusp 11. Success [3,7,11] (their mind + their self + their romantic fulfillment); denial [4,10] (negation of 5th and 11th). Strictly OURS/proposal pending primary-source verification; never present as book-given. | [2026-10-01 user ruling] T6 adopted: success [3,7,11] -> [7,9,11] per user's lookup. Denial [4,10] unchanged.",
+  "provenance": "OURS",
+  "relative_house": 11,
+  "review_status": "provisional pending primary source (batch-1 T6b, 2026-10-01); arrays [3,7,11]/[4,10]/cusp 11 confirmed (T6a)",
+  "source": "Bhavat Bhavam derivation (method book-given, R6:L12045-49): partner=7th; partner's mind=3rd-from-7th=9th radical; partner's romantic feelings=5th-from-7th=11th radical. No direct Reader passage gives this array; OURS construction. Supersedes frozen [3,7,11], which mixed radical 3rd (querent's own mind) with derived 11th.",
+  "success": [
+   7,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "marriage": {
+  "denial": [
+   1,
+   6,
+   10
+  ],
+  "notes": "Denial stated as rule at R4:L9302: 'reject those planets which are in the sub of the planets in 1, 6 and 10, as these are the 12th house to the houses 2, 7 and 11'. VARIANT: a worked marriage-denial case (R4:L6395-6403) uses significators of 4, 6, 10 — there the 4th enters via the love-affair/children dimension of that chart. Prefer [1,6,10] as the stated rule.; [batch-2 2026-10-01] T11a confirmed [2,7,11]/[1,6,10]/cusp 7. T11b: no cusp-5 secondary on plain marriage (love-specific secondary lives on marriage_love_specific per batch-1 T5b).",
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "source": "R4:L3117 ('As the houses 2, 7 and 11 indicate ones marriage'); R6:L9021 ('houses 2, 7 and 11 are to be judged for first ...'); R2:L12947-12960 (2, 7, 11 for happy wedded life)",
+  "success": [
+   2,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "marriage_love_specific": {
+  "denial": [
+   1,
+   6,
+   10
+  ],
+  "notes": "Primary cusp 7 book-verified. Secondary cusp 5 (dual-cusp bridge) per user rulebook. Batch-1 2026-10-01 (T5a/T5b): primary [2,7,11]/[1,6,10]/cusp 7 confirmed; secondary cusp-5 block ([5,7,11]/[4,8,12]) ACTIVATED.",
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "source": "R4:L3117; R6:L9021; R2:L12947-12960 (marriage); R4:L6405 (5th=love)",
+  "success": [
+   2,
+   7,
+   11
+  ],
+  "success_is_desired": true,
+  "dual_active": true,
+  "secondary": {
+   "cusp": 5,
+   "success": [
+    5,
+    7,
+    11
+   ],
+   "denial": [
+    4,
+    8,
+    12
+   ],
+   "provenance": "BOOK (R4:L6405, 5th=love; batch-1 T5a/T5b)"
+  }
+ },
+ "misplaced_item_recovery": {
+  "denial": [],
+  "notes": "OURS. Misplaced (NOT stolen): no thief, so NO 7th house - this is what distinguishes it from stolen_property_recovery. [2,11] = regaining one's own movable property. [batch-5 2026-10-01] T58a/b: kept separate from stolen_property_recovery on the thief/no-thief distinction; confirmed [2,11] OURS, verdict-producing, denial [] strict-binary.",
+  "provenance": "OURS",
+  "relative_house": 2,
+  "source": "OURS (derived)",
+  "success": [
+   2,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "missing_person_return": {
+  "denial": [],
+  "dual_active": true,
+  "dual_proposal_note": "APPROVED/ACTIVE 2026-10-01 (batch-1 T10c). Primary cusp 1 [1,11] = physical state, vitality, safety of the missing individual; secondary cusp 11 [2,8,11] = reunion (BOOK son-case array preserved). Previously: USER-RULED 2026-09-30.",
+  "notes": "BOOK. Case context: missing SON — 8th glossed '4 to 5' (4th from the 5th, the son's house) in that case. Timing keeps the case's 2/8/11 significator-period logic. Status/alive/ill stays with the separate missing_person_status BOOK procedure (R6:L8695-8710). Batch-1 2026-10-01 (T10a): [2,8,11] is son/child-case only, does not generalize flat. (T10b): derived formula [2, 4th-from-H, 11] added to v51 entry (spouse -> [2,10,11]; father's H=9 per subjects.json recorded but not frozen). (T10c): dual primary (cusp 1) ACTIVATED.",
+  "primary": {
+   "cusp": 1,
+   "denial": [],
+   "provenance": "USER-RULING (active 2026-10-01, batch-1 T10c)",
+   "success": [
+    1,
+    11
+   ]
+  },
+  "provenance": "BOOK",
+  "relative_house": 11,
+  "secondary": {
+   "cusp": 11,
+   "denial": [],
+   "provenance": "BOOK",
+   "success": [
+    2,
+    8,
+    11
+   ]
+  },
+  "source": "R6:L17629-17640 ('Judge the houses 2 (family), 8 (4 to 5), 11 (reunion).' — Return of Missing Son case; return judged via 2/8/11 significators, return timed in their conjoined period)",
+  "success": [
+   2,
+   8,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "missing_person_status": {
+  "denial": [],
+  "exception": {
+   "params": {
+    "cusp": 9
+   },
+   "procedure": "missing_person_status",
+   "provenance": "OURS"
+  },
+  "notes": "Method, not a group: take the relationship house (9th for strangers/father); if its cusp sub-lord is in the constellation of badhaka+maraka significators (counted from that house) → dead; if in constellation of that house's lord/significators → alive; if that lord also signifies the 6th from that house → ill. (R6:L8695-8710) EXCEPTION EVENT: judged by layer2b procedure missing_person_status (9th CSL star-lord maraka test), not by house arrays.; [batch-2 2026-10-01] T23a: method-only confirmed, no house arrays. T23b: R6:L8695-8710 prashna context VERIFIED 2026-10-01 - the passage sits in the 'ABSENT PERSON ALIVE OR DEAD' section and the following section names 'the ascendant of the horary chart'. Operative procedure: badhaka+maraka constellation test.",
+  "provenance": "BOOK",
+  "relative_house": null,
+  "source": "R6:L8695-8710",
+  "success": [],
+  "success_is_desired": false
+ },
+ "money_gain": {
+  "denial": [
+   5,
+   8,
+   12
+  ],
+  "notes": "2026-10-14 (3-AI adjudication, USER RULING): success narrowed [2,6,10,11]->[2,6,11], denial []->[5,8,12] BOOK. Bosmia Easy Way: 2-6-11 gain, 5-8-12 no-wealth (verified in library). 10 reserved for enormous-wealth qualifier (Layer 3 branch, unchanged). Layer 3 ordinary branch already used {2,6,11}/{5,8,12}; this syncs the router. Prior: R3:L11157 (2,6,10 or 11 strongest for wealth); batch-3 T32a/b had confirmed [2,6,10,11].",
+  "provenance": "BOOK",
+  "relative_house": 2,
+  "source": "R3:L11157 ('the houses 2, 6, 10 or 11 are the strongest to give wealth')",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "money_lent_recovery": {
+  "denial": [],
+  "notes": "Deciding cusp 11 -> the Bosmia 11th-CSL-mixed->NO exception applies (user ruling 2026-10-03). Books give NO denial form -- denial array is NEEDS-USER-RULING. 6/10 are supporting per Bhatnagar.",
+  "provenance": "BOOK",
+  "relative_house": 11,
+  "source": "Astro Secrets & KP Part 3, true pp.16-17 (verified): 'THE AMOUNT WILL BE REALISED IF THERE IS ANY CONNECTION BETWEEN SUB LORD OF THE 11TH CUSP AND THE CONCERNED HOUSES 2ND AND 11TH.' Corroborating: Maina Bhatnagar, Unlocking Time Prediction Through Krishnamurti Paddhati, true pp.51,53 (verified): recovery houses 2,6,10,11.",
+  "success": [
+   2,
+   11
+  ],
+  "verdict_active": true
+ },
+ "negotiation_success": {
+  "blocking": [
+   2,
+   10
+  ],
+  "denial": [],
+  "notes": "Not book-verified. [batch-5 2026-10-01] T59a confirmed [3,11]/cusp 3 OURS, verdict-producing. T59b: denial [2,10] -> blocking (standing 12th-from rule).",
+  "provenance": "OURS",
+  "relative_house": 3,
+  "source": "Standard: 3rd=agreements/signatures",
+  "success": [
+   3,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "paralysis_recovery": {
+  "denial": [],
+  "dual_active": false,
+  "dual_proposal_note": "USER-RULED 2026-09-30: primary 6 = onset, pathology, duration of the disease; secondary 1 = physical nervous system.",
+  "notes": "OURS-PENDING proposal for dual-cusp paralysis (primary 6 + secondary 1). [batch-5 2026-10-01] T54a: stays OURS-PENDING, not for verdicts (verdict_active:false); no book-grounded procedure.",
+  "primary": {
+   "cusp": 6,
+   "denial": [],
+   "provenance": "OURS-PENDING",
+   "success": [
+    5,
+    11
+   ]
+  },
+  "provenance": "OURS-PENDING",
+  "relative_house": 6,
+  "secondary": {
+   "cusp": 1,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "OURS-PENDING",
+   "success": [
+    1,
+    5,
+    11
+   ]
+  },
+  "success": [
+   5,
+   11
+  ],
+  "success_is_desired": true,
+  "verdict_active": false
+ },
+ "position_lose": {
+  "denial": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "notes": "[2026-10-06] OURS->BOOK per user ruling. Deciding cusp 8th (was relative 10); success [5,9,12] unchanged. Denial [2,6,10,11] retained as semantic inverse (PROVISIONAL).",
+  "provenance": "BOOK",
+  "relative_house": 8,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.124, PDF pp.314-315: \"If 8th Sublord... signifies 5 (12th from 6th), 9th (12th from 10), 12th (loss), ruler faces trouble and end of his govt.\"",
+  "success": [
+   5,
+   9,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "position_regain": {
+  "denial": [
+   1,
+   5,
+   9,
+   12
+  ],
+  "notes": "Book gives [10,11]; extended to [2,6,10,11] per standard job-continuation group. Denial is OURS.; [batch-3 2026-10-01] T26b: citation R3:L23374-23378 covers [10,11] only ('judge 10 and 11'); [2,6] relabeled OURS-extension (was implied BOOK), provisional. T26c denial [1,5,9,12] PROVISIONAL (no hard flip). Citation-coverage rule: BOOK label must cover the full array. [batch-4 2026-10-01] T44b: canonical table for the reinstatement merge (alias reinstatement_regain_position -> position_regain).",
+  "provenance": "BOOK-core [10,11] (R3:L23374-23378) + OURS-extension [2,6] (provisional)",
+  "relative_house": 10,
+  "source": "R3:L23374-23378 (judge 10 and 11 to regain position)",
+  "success": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "success_book_core": [
+   10,
+   11
+  ],
+  "success_is_desired": true,
+  "success_ours_extension": [
+   2,
+   6
+  ],
+  "success_ours_extension_status": "provisional"
+ },
+ "promotion": {
+  "denial": [
+   1,
+   5,
+   9
+  ],
+  "denial_provenance": "OURS",
+  "notes": "GROUP NOT GIVEN. Note R3:L22938 is a Bhavat-Bhavam worked example: 'For promotion take houses 2, 6, 10 and 11 from 7th house i.e. 8th, 12th, 4th and 5th from lagna' — same group, rotated; confirms the group and his own rotation practice.; [batch-2 2026-10-01] T14a confirmed [2,6,10,11]/cusp 10. T14b: third-party promotion (R3:L22938) uses Layer-2 Bhavat Bhavam rotation (same group rotated from the person's house: 8th,12th,4th,5th from lagna for a 7th-house person); no separate event. | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [1,5,9]: kupdf compilation ('Consider the houses 1, 5 and 9th for change of profession or service (being 12th from 2, 6 and 10 respectively)'); RedAstrologer/Medium ('unfavorable is 1 5 9'); Astro Secrets & KP (5th negative for promotion; Saturn signifying 5th and 9th not good for promotion). OURS tier: practitioner compilations/blogs, not KSK Reader. User rules this source-attested, overriding the prior 'do not derive' note.",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "source": "R6:L16347 ('2,6,10 and 11. These houses put together indicate promotion.')",
+  "success": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "property_construct": {
+  "denial": [],
+  "notes": "Denial group not given. [batch-4 2026-10-01] T43a: confirmed [4,11,12]/cusp 4 (BOOK R6:L9622-9623). T43b: denial [] strict-binary.",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "R6:L9622-9623 ('The 4th house shows one's own house, landed property ... the 11th house shows fulfilment of desire and the 12th shows investment. Therefore the houses to be judged for construction of a building are 4, 11 and 12.')",
+  "success": [
+   4,
+   11,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "property_purchase_readybuilt": {
+  "denial": [],
+  "notes": "Extra 6 & 9 apply when buying an already-constructed house (seller dimension). Denial group not given.; [batch-3 2026-10-01] T31a confirmed BOOK group; v51 required [4,11] verdict-required, supporting [12,6,9] supporting-only (addresses the 9%-decisive saturation). T31b denial [] strict-binary.",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "R6:L9626-9632 ('If it is a house already constructed and is to be bought off straight, judge the houses 6 and 9 also ... one who is seller is shown by the 7th house, the 6th is 12th to 7th and the 9th is 12th to 4th counted from 7th house.')",
+  "success": [
+   4,
+   11,
+   12,
+   6,
+   9
+  ],
+  "success_is_desired": true
+ },
+ "property_sale": {
+  "denial": [],
+  "notes": "OURS. 3 = 12th from 4 (loss of the property); 11 = gain of money. Related book note only: seller shown by 7th (R6:L9628). [batch-5 2026-10-01] T60a confirmed [3,11]/cusp 4 OURS, verdict-producing.",
+  "provenance": "OURS",
+  "relative_house": 4,
+  "source": "OURS (derived)",
+  "success": [
+   3,
+   5,
+   10
+  ],
+  "success_is_desired": true
+ },
+ "provident_fund_pension": {
+  "denial": [],
+  "notes": "Full 8-2-6-11 -> YES; 2-6-11 (Joshi form) -> YES; partial -> PARTIAL; silent -> OTHER (never NO). Covers PF/pension/gratuity/retirement benefits.",
+  "provenance": "BOOK",
+  "relative_house": 11,
+  "source": "KP Ezine Nov 2020-Dec 2021 true p.291 (hint + worked case): 11th CSL -> 8 (long-term income like PF), 2 (money), 6 (service earnings), 11 (success) and/or Mercury/Jupiter -> 'getting money of provident fund is assured'. Worked: 11th CSL Jupiter -> 2,6,8,11 & Jupiter -> assured.",
+  "success": [
+   8,
+   2,
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "publishing_book_press": {
+  "blocking": [
+   2,
+   8,
+   12
+  ],
+  "denial": [],
+  "notes": "Not book-verified. Standard house attributions. [batch-4 2026-10-01] T40a: confirmed [3,9,11]/cusp 3 OURS. [batch-4 2026-10-01] T40b: denial [2, 8, 12] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip).",
+  "provenance": "OURS",
+  "relative_house": 3,
+  "source": "Standard: 3rd=writing/printing, 9th=circulation",
+  "success": [
+   3,
+   9,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "recovery_cure": {
+  "denial": [
+   6,
+   8,
+   12
+  ],
+  "denial_provenance": "OURS",
+  "notes": "BOOK. R3:L17898 verified verbatim: 'Cure is to be seen from the 5th and the 11th houses.' The 1st-house inclusion seen in generic KP summaries is NOT in the cited Reader passage — deliberately excluded (review 2026-09-30). 11th as 'cure of the disease' also in the R6 p.121 house-signification list.; [batch-3 2026-10-01] T29a/b confirmed [5,11]/cusp 6 (BOOK R3:L17898, 1st excluded); denial [] strict-binary. | [2026-10-01 denial adoption] User-verified and ruled for adoption. Denial [6,8,12]: Jagannath Hora ('6-8-12 medical formula'); Tin Win House Grouping via archive.org ('Proneness of disease' 1,6,8,12; user narrows to [6,8,12]: 6=disease, 8=chronicity/crisis, 12=hospitalisation/loss). OURS tier. (R6:L8626-8628 gives cure [5,11] with no denial group.)",
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "source": "R3:L17898 ('Cure is to be seen from the 5th and the 11th houses.')",
+  "success": [
+   5,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "reinstatement_regain_position": {
+  "denial": [],
+  "notes": "Denial group not given. Stated for regaining a lost position specifically. [batch-4 2026-10-01] T44a: confirmed [10,11]/cusp 10 (BOOK R3:L23374-23378). T44b: merged into position_regain via CANONICAL_EVENT_ALIASES - one citation, one table; canonical = position_regain (BOOK-core [10,11] + OURS-extension [2,6] provisional; denial [1,5,9,12] provisional per T26b/T26c).",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "retired": true,
+  "source": "R3:L23374-23378 ('To regain one's position, one has to judge the house 10 and 11, as 10th house indicates the position, fame, reputation and honour in profession and also the 11th shows one's realisation of ambition.')",
+  "success": [
+   10,
+   11
+  ],
+  "success_is_desired": true,
+  "superseded_by": "position_regain"
+ },
+ "relationship_longevity": {
+  "blocking": [
+   12
+  ],
+  "denial": [
+   1,
+   6,
+   10
+  ],
+  "notes": "Core arrays book-verified; extended denial was OURS. Batch-2 T19b 2026-10-01: verdict-changing denial restricted to book [1,6,10]; +12 moved to blocking/soft (no stated derivation beyond OURS extension; cf. batch-1 T3b).",
+  "provenance": "OURS",
+  "relative_house": 7,
+  "source": "Extends book-verified marriage [2,7,11]/[1,6,10]; +12 in denial is OURS",
+  "success": [
+   2,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "renting_live_in": {
+  "denial": [],
+  "notes": "OURS. 4 = residence, 11 = occupying/fulfillment. Renting OUT (to a tenant) NOT added: the proposed 6th-house logic is unjustified - left for user ruling. [batch-5 2026-10-01] T60b confirmed [4,11]/cusp 4 OURS, verdict-producing; renting OUT stays excluded pending a verified book procedure.",
+  "provenance": "OURS",
+  "relative_house": 4,
+  "source": "OURS (derived)",
+  "success": [
+   4,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "repair_appliance": {
+  "denial": [
+   3,
+   10
+  ],
+  "notes": "Not book-verified. [batch-4 2026-10-01] T39a: merged into utility_domestic via CANONICAL_EVENT_ALIASES (Policy 4: identical arrays [4,11]/[3,10]/cusp 4; all three utility events among worst non-love routers). Reversible by removing the alias line.",
+  "provenance": "OURS",
+  "relative_house": 4,
+  "retired": true,
+  "source": "Standard: 4th=possessions/appliances",
+  "success": [
+   4,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "retirement_decision": {
+  "denial": [
+   2,
+   6,
+   10,
+   11
+  ],
+  "notes": "[2026-10-06] OURS->BOOK per user ruling. Deciding cusp 10th (was 6th); success [1,5,9] (removed 12). 8th as supporting (PF/legacy per Khullar). Denial [2,6,10,11] retained as semantic inverse (PROVISIONAL).",
+  "provenance": "BOOK",
+  "relative_house": 10,
+  "source": "Astro Secrets & KP Part 5, PDF p.109: \"Houses 1,5,9 are to be consulted for retirement as these are negative houses to 2,6 & 10.\"; S.P. Khullar, true p.597: \"Voluntary Retirement: 10 / 5,9 (8) / 1,5,9.\"",
+  "success": [
+   1,
+   5,
+   9
+  ],
+  "success_is_desired": true
+ },
+ "romance_breakup": {
+  "denial": [
+   5,
+   7,
+   11
+  ],
+  "denial_status": "PROVISIONAL (batch-2 T18b 2026-10-01, mirrors T4b): denial [5,7,11] is diagnostic / support-for-OTHER only; no hard verdict flip. Promotion requires the predeclared promotion protocol.",
+  "notes": "USER-RULING 2026-09-28 (refined same day): breakup is the inverse of romance_materialise: success=[4,6] (breakup happens), denial=[5,7,11] (romance continues). 10th/12th are soft houses: the breakup is delayed, or it comes abruptly/painfully (report-only, never changes the verdict).; [batch-2 2026-10-01] T18a confirmed [4,6]/[5,7,11]/cusp 5; T18b provisional applied.",
+  "provenance": "USER-RULING",
+  "relative_house": 5,
+  "soft_houses": [
+   10,
+   12
+  ],
+  "source": "User Rule 3 (2026-09-28): breakup of dating relationship",
+  "success": [
+   4,
+   6
+  ],
+  "success_is_desired": false
+ },
+ "romance_materialise": {
+  "denial": [
+   4,
+   6
+  ],
+  "notes": "USER-RULING 2026-09-28 (refined same day): denial=[4,6] are STRAIGHT NO (4th=12th-from-5th, 6th=12th-from-7th). 10th/12th are NOT denial: they are soft houses meaning delay, or that the relationship ends abruptly/painfully (report-only complication, never changes the verdict). User's rule: '12th house is a straight no' applies via the 12th-from negation (4th, 6th); 10th=12th-from-11th and 12th=8th-from-5th afflict the outcome, they don't deny it. Supersedes BOOK [7,11]/[6,12] (R6:10570-10578) for romance events. Batch-1 2026-10-01 (T4a/T4b): v5.1 arrays confirmed; denial [4,6] stays PROVISIONAL per v51 denial_meta (diagnostic / support-for-OTHER only; gate_flip and automatic_NO forbidden). The 2026-09-28 'STRAIGHT NO' phrasing is superseded for verdict purposes - promotion requires the predeclared promotion protocol with measured gates.",
+  "provenance": "USER-RULING",
+  "relative_house": 5,
+  "soft_houses": [
+   10,
+   12
+  ],
+  "source": "R6:L10570-10578 (love affairs materialise: 5th CSL in star of significator of 7 and 11 -> promised; 6 or 12 -> never)",
+  "success": [
+   5,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "romance_new_entry": {
+  "blocking": [
+   10
+  ],
+  "denial": [
+   4,
+   6
+  ],
+  "notes": "USER-APPROVED 2026-09-30 (decision 1): 'when will I meet someone / my soulmate'. Primary cusp 5. Success [5,7,11] (romance leading to partnership and fulfillment); denial [4,6,10] (4th=12th-from-5th: no romance manifests). Strictly OURS/proposal; never present as book-given. Batch-1 2026-10-01 (T3a/T3b): success [5,7,11] confirmed, cusp 5. Denial: [4] hard (12th-from-5th, no romance manifests), [6] hard (12th-from-7th, negation of partnership); [10] moved to blocking/soft (12th-from-11th derivation real but one step removed - negates fulfillment, not the entry itself).",
+  "provenance": "OURS",
+  "relative_house": 5,
+  "source": "Constructed 2026-09-30 (user-approved proposal): meeting someone new = genesis of a fresh 5th-house matter, distinct from romance_materialise (an existing crush). Arrays are OURS-constructed, not verbatim book.",
+  "success": [
+   5,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "romance_reunion": {
+  "denial": [
+   4,
+   6
+  ],
+  "denial_status": "PROVISIONAL (batch-2 T21a 2026-10-01): denial [4,6] diagnostic / support-for-OTHER only; no hard verdict flip (matches v51 denial_meta).",
+  "notes": "USER-RULING 2026-09-28 (refined same day): denial=[4,6] are STRAIGHT NO (4th=12th-from-5th, 6th=12th-from-7th). 10th/12th are NOT denial: they are soft houses meaning delay, or that the relationship ends abruptly/painfully (report-only complication, never changes the verdict). User's rule: '12th house is a straight no' applies via the 12th-from negation (4th, 6th); 10th=12th-from-11th and 12th=8th-from-5th afflict the outcome, they don't deny it. Supersedes BOOK [7,11]/[6,12] (R6:10570-10578) for romance events.; [batch-2 2026-10-01] T21a confirmed [5,7,11]/[4,6]/cusp 5. T21b: kept separate from spouse_return_estranged - ex-lover = cusp-5 dating history; estranged spouse = cusp-7 marital bond.",
+  "provenance": "USER-RULING",
+  "relative_house": 5,
+  "soft_houses": [
+   10,
+   12
+  ],
+  "source": "User Rule 3 (2026-09-28): ex-boyfriend/girlfriend comes back",
+  "success": [
+   5,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "rumor_true": {
+  "denial": [],
+  "exception": {
+   "params": {
+    "cusp": 3
+   },
+   "procedure": "rumor_true",
+   "provenance": "OURS"
+  },
+  "notes": "EXCEPTION EVENT: judged by layer2b procedure rumor_true (3rd CSL planet test). Planet rule (Jupiter=true; Saturn/Mars/Rahu/Ketu=false) NOT found in Readers. [batch-5 2026-10-01] T61a confirmed method-only (no arrays, planet test only). T61b: planet mapping downgraded to UNCLEAR-BY-DEFAULT, labeled OURS-ADAPTATION - Jupiter=true may stay a lean; Saturn/Mars/Rahu/Ketu=false must NOT be hard. T61c: inverse polarity confirmed (success_is_desired False).",
+  "provenance": "OURS",
+  "relative_house": 3,
+  "source": "OURS (derived); 3rd = rumours/messages verified in Readers house lists",
+  "success": [],
+  "success_is_desired": false
+ },
+ "scholarship": {
+  "denial": [],
+  "notes": "Success [6,11] strict per Part 2; 2 is supporting per Naik. Books give NO denial form -- denial array is NEEDS-USER-RULING (l12_repair/layer3_procedures.json).",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "Astro Secrets & KP Part 2 (Shanmugam/Subramaniam), true p.265 (verified): 'The sublord of the 4th cusp should be connected with 6 or 11 for one to receive scholarship.' Corroborating: S. Naik, K.P. Dynamics, true p.56: Scholarship -> 2,6,11.",
+  "success": [
+   6,
+   11
+  ],
+  "verdict_active": true
+ },
+ "second_marriage": {
+  "blocking": [
+   1,
+   10
+  ],
+  "denial": [],
+  "notes": "BOOK: [2,11] R6:L9022; denial [1,10] OURS 12th-from fallback. [batch-4 2026-10-01] T51a: confirmed [2,11]/cusp 2 (BOOK-premise). [batch-4 2026-10-01] T51b: denial [1, 10] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip).",
+  "provenance": "BOOK-premise/OURS-array",
+  "relative_house": 2,
+  "source": "BOOK premise: Readers (\"The second house governs second marriage\"; \"cusp of 2 for second marriage\")",
+  "success": [
+   2,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "spouse_return_estranged": {
+  "confidence": "LOW (batch-2 T22b 2026-10-01): BOOK-premise/OURS-array. The provenance label must not imply book-verified certainty.",
+  "denial": [
+   1,
+   6,
+   10
+  ],
+  "notes": "BOOK: success [2,7,11] R6:L13857 reunion case; denial [1,6,10] OURS 12th-from fallback.; [batch-2 2026-10-01] T22a confirmed [2,7,11]/[1,6,10]-provisional/cusp 7. T22b: missing-vs-estranged distinction stands - 'never returned' (physical safety/location) vs 'voluntarily estranged' (volition of the bond).",
+  "provenance": "BOOK-premise/OURS-array",
+  "relative_house": 7,
+  "source": "OURS (derived)",
+  "success": [
+   2,
+   7,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "stock_speculation": {
+  "blocking": [
+   1,
+   4,
+   10
+  ],
+  "denial": [],
+  "notes": "5th = speculation verified (BOOK premise). Success [2,5,11] OURS. [batch-5 2026-10-01] T62a confirmed [2,5,11]/cusp 5 BOOK-premise/OURS-array. T62b CITATION-COVERAGE CHECK: the denial's 'stated as book rule' claim had NO citation - it traces to childbirth's R3:~L25786-89 ('he can never have a child at all', houses 1,4,10 detrimental to CHILDREN), transplanted onto speculation. No book passage gives [1,4,10] for stock speculation. Softened to blocking per the standing rule (default soft unless the source states the array verbatim). T62c: kept separate from childbirth despite identical arrays - entirely different life events; no merge on arrays alone.",
+  "provenance": "BOOK-premise/OURS-array",
+  "relative_house": 5,
+  "source": "BOOK premise: \"Fifth House: Investments, speculation and ...\" (Readers)",
+  "success": [
+   2,
+   5,
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "stolen_property_recovery": {
+  "denial": [],
+  "notes": "OURS. 2 = own movable property, 11 = regain; 6 = 12th from 7th (the thief): the thief's loss is the querent's gain. Descriptive slokas only in books (R6:L2497-2550), no recovery group. [batch-5 2026-10-01] T58a/b: kept separate from misplaced_item_recovery; confirmed [2,6,11] OURS, verdict-producing, denial [] strict-binary.",
+  "provenance": "OURS",
+  "relative_house": 2,
+  "source": "OURS (derived)",
+  "success": [
+   2,
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "surgery": {
+  "denial": [
+   5,
+   11
+  ],
+  "dual_active": false,
+  "notes": "USER-RULING 2026-09-29 (dual-cusp): primary 8 (operation) judged on [8]/[5,11]; secondary 1 (body/vitality) judged on [1,5,11]/[6,8,12]. Previous OURS [6,8,12] retired. OURS. 6 = disease, 8 = operation, 12 = hospitalization. CAUTION: the 8=surgery premise itself is practitioner consensus, NOT Reader-verified (see TABLES_NOTES.md) - do not use. [batch-4 2026-10-01] T47a: STOOD DOWN - no active Layer-3 table; the 8=surgery premise is practitioner consensus, NOT Reader-verified ('do not use' note overrides the USER-RULING activation). T47b: secondary cusp-1 block INACTIVE (not diagnostic) until the premise is verified.",
+  "primary": {
+   "cusp": 8,
+   "denial": [
+    5,
+    11
+   ],
+   "provenance": "USER-RULING",
+   "success": [
+    8
+   ]
+  },
+  "provenance": "USER-RULING",
+  "relative_house": 8,
+  "secondary": {
+   "cusp": 1,
+   "denial": [
+    6,
+    8,
+    12
+   ],
+   "provenance": "USER-RULING",
+   "status": "inactive",
+   "success": [
+    1,
+    5,
+    11
+   ]
+  },
+  "source": "OURS (derived)",
+  "success": [
+   8
+  ],
+  "success_is_desired": false,
+  "verdict_active": false
+ },
+ "suspension_from_service": {
+  "denial": [],
+  "notes": "Stated inside a horary analysis ('The houses 5, 9, 1 indicate suspension') — treat as his working rule, single attestation. [batch-5 2026-10-01] T55b confirmed [5,9,1]/cusp 6 BOOK; provenance flagged SINGLE-ATTESTATION (stated inside one horary analysis).",
+  "provenance": "BOOK",
+  "relative_house": 6,
+  "source": "R3:L22517",
+  "success": [
+   5,
+   9,
+   1
+  ],
+  "success_is_desired": false
+ },
+ "tenant_acquire": {
+  "blocking": [
+   3,
+   5,
+   10
+  ],
+  "denial": [],
+  "notes": "Not book-verified. [batch-4 2026-10-01] T52a: confirmed [4,6,11]/cusp 6 OURS. [batch-4 2026-10-01] T52b: denial [3, 5, 10] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip).",
+  "provenance": "OURS",
+  "relative_house": 6,
+  "source": "Standard: 6th=tenant/service",
+  "success": [
+   4,
+   6,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "tenant_vacate": {
+  "blocking": [
+   9
+  ],
+  "denial": [],
+  "notes": "Not book-verified. Derived negation logic.; [batch-3 2026-10-01] T38a confirmed [8,12]/cusp 6 as OURS (Bhavat Bhavam derivation); T38b denial [9] moved to blocking/soft (fresh derivation, no book verification).",
+  "provenance": "OURS",
+  "relative_house": 6,
+  "source": "Bhavat Bhavam: 8th is 3rd-from-6th (tenant leaving); 9th is 4th-from-6th (tenant stays)",
+  "success": [
+   8,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "theft_identify_thief": {
+  "denial": [],
+  "notes": "Subject identification (thief = 7th), not a yes/no event group. Descriptive slokas at R6:L2497-2550. NO EXCEPTION PROCEDURE: identification is descriptive (slokas on the thief's appearance/whereabouts), not a yes/no judgment - nothing verified to code. Left unsupported rather than invented.; [batch-3 2026-10-01] T25a/b confirmed method-only (7th-house subject procedure), no house arrays; R6:L2497-2550 stays descriptive reference only, never a verdict procedure.",
+  "provenance": "BOOK",
+  "relative_house": 7,
+  "source": "R2:L13044 ('The 7th shows thief.')",
+  "success": [],
+  "success_is_desired": true
+ },
+ "thesis_submission": {
+  "denial": [],
+  "notes": "No book denial form for thesis submission -- denial array is NEEDS-USER-RULING (options: generic [1,5,9,12] education-denial, or silent/OTHER on miss). Deciding cusp 9 (not 4 -- do not confuse with education_higher admission questions).",
+  "provenance": "BOOK",
+  "relative_house": 9,
+  "source": "Kanak Bosmia, Easy Way to Learn KP Horary Astrology, Ex.129, true pp.324-325 (verified): 'If the sub lord of the 9th (Higher education) cusp be the significator of 4-9-11 higher education is assured.' (PhD synopsis presentation case.)",
+  "success": [
+   4,
+   9,
+   11
+  ],
+  "verdict_active": true
+ },
+ "transfer_job": {
+  "denial": [],
+  "notes": "Denial group not given. [batch-5 2026-10-01] T55b confirmed [3,9,12]/cusp 3 BOOK. T55c: kept separate from job_loss/suspension (distinct questions, no merge on array overlap).",
+  "provenance": "BOOK",
+  "relative_house": 3,
+  "source": "R3:L22861 ('For transfer we have to consider houses 3, 9 and 12th'); R3:L22980 ('For transfer judge houses 3, 9 and 12 which includes change ...')",
+  "success": [
+   3,
+   9,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "utility_domestic": {
+  "blocking": [
+   3,
+   10
+  ],
+  "denial": [],
+  "notes": "Not book-verified. [batch-4 2026-10-01] T39c: denial [3, 10] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip). [batch-4 2026-10-01] T39b: kept separate from utility_telecom (cusp 4 vs 3); stays OURS verdict-producing - no downgrade without evidence (routing failure, not table failure).",
+  "provenance": "OURS",
+  "relative_house": 4,
+  "source": "Standard: 4th=domestic matters/property",
+  "success": [
+   4,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "utility_telecom": {
+  "blocking": [
+   2,
+   10
+  ],
+  "denial": [],
+  "notes": "Not book-verified. [batch-4 2026-10-01] T39c: denial [2, 10] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip). [batch-4 2026-10-01] T39b: kept separate (cusp 3 communications vs cusp 4 home/appliances); stays OURS verdict-producing.",
+  "provenance": "OURS",
+  "relative_house": 3,
+  "source": "Standard: 3rd=communications",
+  "success": [
+   3,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "vehicle_purchase": {
+  "denial": [],
+  "notes": "Denial group not given. (R6:L10273 mentions 'vehicle, houses 9 and 10' in passing; the R3 statement is the fuller one.) [batch-5 2026-10-01] T63a confirmed [4,9,10,11]/cusp 4 BOOK. T63b: T31a treatment applied in events_v51.json - [4,11] verdict-required, [9,10] strictly supporting (addresses the 5:1 YES-bias saturation).",
+  "provenance": "BOOK",
+  "relative_house": 4,
+  "source": "R3:L14944-14946 ('to state definitely whether one has Vahana Yoga or not, the houses 4, 9, 10 and 11 counted from the ascendant ... should be considered.')",
+  "success": [
+   4,
+   9,
+   10,
+   11
+  ],
+  "success_is_desired": true
+ },
+ "visa": {
+  "denial": [],
+  "notes": "No visa-specific group in the books; covered by the overseas group. Recorded as alias, not a separate book entry. [batch-4 2026-10-01] T45a: alias merge visa -> visa_approval confirmed (F4); one routed event, one table = visa_approval's.",
+  "provenance": "BOOK",
+  "relative_house": 12,
+  "source": "see foreign_travel (R6:L14856)",
+  "success": [
+   3,
+   9,
+   12
+  ],
+  "success_is_desired": true
+ },
+ "visa_approval": {
+  "blocking": [
+   2,
+   8,
+   11
+  ],
+  "denial": [],
+  "notes": "Success [3,9,12] book-verified. Denial [2,8,11] is OURS (standard negation). [batch-4 2026-10-01] T45b: denial [2, 8, 11] -> blocking/soft per standing 12th-from rule (diagnostic-only, no hard flip).",
+  "provenance": "BOOK",
+  "relative_house": 12,
+  "source": "R6:L14856 (foreign_travel group; visa recorded as alias)",
+  "success": [
+   3,
+   9,
+   12
+  ],
+  "success_is_desired": true
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "boss_superior": {
+  "base_house": 10,
+  "keywords": [
+   "boss",
+   "superior",
+   "employer",
+   "manager",
+   "officer",
+   "master",
+   "judge"
+  ],
+  "source": "R2:L13789 ('The 10th house has reference to the employer'); R6:L6503 (10th-house list: 'employer, superior, master, judge')"
+ },
+ "business_partner": {
+  "base_house": 7,
+  "keywords": [
+   "business partner",
+   "partner in business",
+   "partner"
+  ],
+  "source": "R2:L12978-12985 (7th house: 'the partner in trade or business and the degree of success achieved through such partnership is also shown by this house')"
+ },
+ "children": {
+  "base_house": 5,
+  "keywords": [
+   "child",
+   "children",
+   "son",
+   "daughter",
+   "baby",
+   "kid",
+   "progeny",
+   "offspring"
+  ],
+  "source": "R3:L9138-9139 ('child by 5th house'); R6:L12045-12049 (horary: 'If it refers to children take the 5th as lagna')"
+ },
+ "competitor_enemy_open": {
+  "base_house": 7,
+  "keywords": [
+   "competitor",
+   "enemy",
+   "rival",
+   "opponent",
+   "adversary"
+  ],
+  "source": "R2:L12978-12985 (7th: 'his rival in any contest ... his public adversaries'); R6:L12086 ('As the opponent is shown by the 7th house')"
+ },
+ "elder_sibling": {
+  "base_house": 11,
+  "keywords": [
+   "elder brother",
+   "elder sister",
+   "older brother",
+   "older sister",
+   "elder sibling"
+  ],
+  "source": "R6:L12048-12049 (horary: 'to elder brother or sister take the 11th'); R5:L992 ('11th house shows elder brother')"
+ },
+ "father": {
+  "base_house": 9,
+  "keywords": [
+   "father",
+   "dad",
+   "daddy",
+   "papa"
+  ],
+  "source": "R3:L9138-9139 ('Father by 9th house'); R6:L12045-12049 (horary: 'to father take 9th'); R2:L13307 (9th: 'Pithru (father)')"
+ },
+ "friend": {
+  "base_house": 11,
+  "keywords": [
+   "friend",
+   "friends",
+   "well-wisher",
+   "associate",
+   "companion"
+  ],
+  "source": "R2:L13921-13935 (11th: 'the house of friends ... one's favourites ... associates, advisers, adherents, supporters, well-wishers')"
+ },
+ "guru_teacher": {
+  "base_house": 9,
+  "keywords": [
+   "guru",
+   "teacher",
+   "mentor",
+   "preceptor",
+   "acharya",
+   "coach"
+  ],
+  "source": "R2:L13307-13310 (9th: 'Acharva (guru or preceptor)'). Note: citation names guru/preceptor; 'teacher/coach' extended by same office, marked reasonable but not verbatim."
+ },
+ "mother": {
+  "base_house": 4,
+  "keywords": [
+   "mother",
+   "mom",
+   "mummy",
+   "maa",
+   "mata"
+  ],
+  "source": "R3:L9138 ('Mother is shown by 4th house'); R6:L12045-12049 (horary: 'If the query relates to mother, take the fourth house')"
+ },
+ "secret_enemy": {
+  "base_house": 12,
+  "keywords": [
+   "secret enemy",
+   "hidden enemy",
+   "backstabber"
+  ],
+  "source": "R2:L15000-15004 (12th: 'persecution by secret enemies' — quoted via L. George, carried as accepted doctrine in the book). Not Krishnamurti's own phrasing; marked near-verbatim."
+ },
+ "self": {
+  "base_house": 1,
+  "keywords": [
+   "i",
+   "me",
+   "my",
+   "myself",
+   "self"
+  ],
+  "source": "R2:L12013-12015 ('The first house or what is commonly known as the Ascendant (Lagna) signifies the native')"
+ },
+ "spouse_partner": {
+  "base_house": 7,
+  "keywords": [
+   "wife",
+   "husband",
+   "spouse",
+   "partner",
+   "fiance",
+   "fiancee"
+  ],
+  "source": "R2:L12937-12945 (7th: 'Kalathra (wife or husband)'); R6:L12045-12049 (horary: 'To wife take 7th')"
+ },
+ "stranger_unknown": {
+  "base_house": 9,
+  "keywords": [
+   "stranger",
+   "unknown person",
+   "someone",
+   "outsider",
+   "foreigner (as person)"
+  ],
+  "source": "R6:L8695-8700 — Krishnamurti's own ruling: 'I do not agree. Because according to me all people not related to the native should be judged from the 9th house.' Also R6:L8697-8699 (KP method: 'For father and for strangers take only the 9th house.')"
+ },
+ "thief": {
+  "base_house": 7,
+  "keywords": [
+   "thief",
+   "robber",
+   "burglar",
+   "dacoit",
+   "pickpocket"
+  ],
+  "source": "R2:L13041-13046 (7th-house section: 'The 7th shows thief. The 8th bhava being 2 to the 7th indicates the thief's wealth.')"
+ },
+ "younger_sibling": {
+  "base_house": 3,
+  "keywords": [
+   "younger brother",
+   "younger sister",
+   "younger sibling",
+   "brother",
+   "sister",
+   "sibling"
+  ],
+  "source": "R6:L12045 ('for younger sister or brother, take the 3rd house counted from Horary lagna as the Ascendant')"
+ },
+ "romantic_partner": {
+  "base_house": 5,
+  "keywords": [
+   "girlfriend",
+   "boyfriend",
+   "crush",
+   "lover",
+   "affair partner",
+   "date (romantic)",
+   "gf",
+   "bf",
+   "sweetheart"
+  ],
+  "source": "USER-RULING Rule 2 (2026-09-28): romance/pre-legal bucket -> 5th; 5th = love/romance per R6:L6213 'ROMANCE (LOVE AFFAIRS)'"
+ },
+ "father_in_law": {
+  "base_house": 3,
+  "keywords": [
+   "father in law",
+   "father-in-law",
+   "sasur"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): spouse=7th, spouse's father=9th from 7th = 3rd"
+ },
+ "mother_in_law": {
+  "base_house": 10,
+  "keywords": [
+   "mother in law",
+   "mother-in-law",
+   "saas"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): spouse=7th, spouse's mother=4th from 7th = 10th"
+ },
+ "brother_in_law": {
+  "base_house": 9,
+  "keywords": [
+   "brother in law",
+   "brother-in-law",
+   "sala",
+   "jija"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): spouse's brother=3rd from 7th = 9th (also sister's husband=7th from 3rd = 9th)"
+ },
+ "sister_in_law": {
+  "base_house": 9,
+  "keywords": [
+   "sister in law",
+   "sister-in-law",
+   "bhabhi",
+   "sali"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): spouse's sister=3rd from 7th = 9th"
+ },
+ "son_in_law": {
+  "base_house": 11,
+  "keywords": [
+   "son in law",
+   "son-in-law",
+   "damaad"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): child's spouse=7th from 5th = 11th"
+ },
+ "daughter_in_law": {
+  "base_house": 11,
+  "keywords": [
+   "daughter in law",
+   "daughter-in-law",
+   "bahu"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): child's spouse=7th from 5th = 11th"
+ },
+ "grandfather_paternal": {
+  "base_house": 5,
+  "keywords": [
+   "paternal grandfather"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): father's father=9th from 9th = 5th"
+ },
+ "grandfather_maternal": {
+  "base_house": 12,
+  "keywords": [
+   "maternal grandfather"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): mother's father=9th from 4th = 12th"
+ },
+ "grandmother_paternal": {
+  "base_house": 12,
+  "keywords": [
+   "paternal grandmother"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): father's mother=4th from 9th = 12th"
+ },
+ "grandmother_maternal": {
+  "base_house": 7,
+  "keywords": [
+   "maternal grandmother"
+  ],
+  "source": "OURS 2026-09-29 (Bhavat-Bhavam): mother's mother=4th from 4th = 7th"
+ }
+}

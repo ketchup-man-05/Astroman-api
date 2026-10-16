@@ -1,0 +1,4 @@
+{
+ "_schema": "phrase -> {event, confidence, source, date_added, reviewed}. Only the AI filter writes here; humans review.",
+ "_entries": {}
+}
