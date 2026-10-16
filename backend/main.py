@@ -1,0 +1,142 @@
+"""Astroman AI backend API.
+
+Thin FastAPI wrapper around the KP engine (engine/pipeline.py).
+The engine code is untouched — this just gives it an HTTP door.
+
+Endpoints:
+  GET  /health  — uptime check (for UptimeRobot)
+  POST /ask     — ask a question, get a verdict + narration
+"""
+
+import os
+import sys
+from datetime import datetime, timezone, timedelta
+
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
+
+# --- Engine import ---
+# Local dev: engine lives in ~/workspace/astroman_v2
+# Render deploy: engine/ is copied next to this file (see build script)
+_HERE = os.path.dirname(os.path.abspath(__file__))
+for _p in (_HERE, os.path.expanduser("~/workspace/astroman_v2")):
+    if _p not in sys.path and os.path.isdir(os.path.join(_p, "engine")):
+        sys.path.insert(0, _p)
+
+from engine import pipeline  # noqa: E402
+
+IST = timezone(timedelta(hours=5, minutes=30))
+
+app = FastAPI(title="Astroman AI API", version="1.0.0")
+
+# Allow the JS frontend (any origin for now; lock down later)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["POST", "GET"],
+    allow_headers=["*"],
+)
+
+
+class AskRequest(BaseModel):
+    question: str = Field(..., min_length=3, max_length=500)
+    city: str = Field(default="Shimla", max_length=100)
+    horary_number: int = Field(..., ge=1, le=249)
+
+
+class AskResponse(BaseModel):
+    verdict: str
+    modifiers: list = []
+    narration: str = ""
+    question: str
+    city: str
+    number: int
+    cast_at: str
+    # Full engine result for the frontend to use as needed
+    result: dict = {}
+
+
+def _gemini_key():
+    return os.environ.get("GEMINI_API_KEY") or None
+
+
+def _narration_text(result: dict) -> str:
+    """Build a human-readable narration from the engine result.
+
+    The engine's verdict + modifiers are the core. The full narration
+    (Gemini or template) lives in result['notes'] when available.
+    """
+    notes = result.get("notes") or ""
+    if isinstance(notes, list):
+        notes = " ".join(str(n) for n in notes)
+    return str(notes)
+
+
+def _display_verdict(result: dict) -> str:
+    """User-facing verdict line, e.g. 'YES — with delays'."""
+    verdict = (result.get("verdict") or "UNANSWERABLE").upper()
+    modifiers = result.get("modifiers") or []
+    if verdict == "YES" and any("DELAY" in str(m).upper() for m in modifiers):
+        return "YES — with delays"
+    if verdict == "YES" and "PARTIAL" in [str(m).upper() for m in modifiers]:
+        return "YES — partially"
+    return verdict
+
+
+@app.get("/health")
+def health():
+    return {"status": "ok", "time": datetime.now(IST).isoformat()}
+
+
+@app.get("/")
+def root():
+    return {
+        "name": "Astroman AI API",
+        "version": "1.0.0",
+        "endpoints": ["/health", "/ask"],
+    }
+
+
+@app.post("/ask", response_model=AskResponse)
+def ask(req: AskRequest):
+    key = _gemini_key()
+    if key and not os.environ.get("GEMINI_API_KEY"):
+        os.environ["GEMINI_API_KEY"] = key
+
+    try:
+        result = pipeline.answer(
+            req.question.strip(),
+            req.city.strip() or "Shimla",
+            int(req.horary_number),
+            use_gemini=bool(key),
+        )
+    except Exception as e:
+        # pipeline.answer never raises, but be safe
+        result = {"verdict": "UNANSWERABLE", "modifiers": [],
+                  "notes": f"Engine error: {e}"}
+
+    if not result or not result.get("verdict"):
+        result = {"verdict": "UNANSWERABLE", "modifiers": [],
+                  "notes": "The chart could not be cast for that city."}
+
+    # Make the result JSON-safe (engine may include non-serializable objects)
+    safe_result = {}
+    for k, v in result.items():
+        try:
+            import json
+            json.dumps(v)
+            safe_result[k] = v
+        except (TypeError, ValueError):
+            safe_result[k] = str(v)
+
+    return AskResponse(
+        verdict=_display_verdict(result),
+        modifiers=result.get("modifiers") or [],
+        narration=_narration_text(result),
+        question=req.question.strip(),
+        city=req.city.strip() or "Shimla",
+        number=int(req.horary_number),
+        cast_at=datetime.now(IST).strftime("%-d %b %Y, %-I:%M %p IST"),
+        result=safe_result,
+    )
