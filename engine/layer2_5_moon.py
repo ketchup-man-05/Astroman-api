@@ -170,8 +170,7 @@ def check(router_out, city, horary_number, as_of=None, coords=None):
         checks.append({
             "name": "M2-moon-sign-extreme", "passed": not extreme,
             "detail": (f"Moon at {deg:.2f}° in sign — "
-                       f"{'first/last navamsha: querent may not be serious / may have lost hope'
-                          if extreme else 'not at sign extreme'}. [{_M2_CITE}]"
+                       f"{'first/last navamsha: querent may not be serious / may have lost hope' if extreme else 'not at sign extreme'}. [{_M2_CITE}]"
                        if deg is not None else "Moon degree unavailable."),
         })
 
