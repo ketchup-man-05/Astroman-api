@@ -103,7 +103,10 @@ def _bedrock_narrate(question: str, verdict_line: str, template_notes: str) -> s
             f"Engine notes: {template_notes}\n\n"
             "Rules: 3-5 short sentences. No astrology jargon. No remedies, gemstones, "
             "or rituals. No exaggeration and no guarantees beyond what the verdict says. "
-            "Start with the verdict in plain words."
+            "Start with the verdict in plain words. "
+            "IMPORTANT: if the verdict is OTHER or UNANSWERABLE, the chart gave no clear "
+            "answer. Say that honestly and warmly in plain words — never turn it into a yes "
+            "or a no. Suggest asking again another time or speaking to a human reader."
         )
         resp = client.converse(
             modelId=cfg["model"],
