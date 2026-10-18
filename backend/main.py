@@ -61,6 +61,64 @@ def _gemini_key():
     return os.environ.get("GEMINI_API_KEY") or None
 
 
+def _bedrock_config():
+    """Bedrock credentials from env. Returns None if not configured."""
+    key_id = os.environ.get("AWS_ACCESS_KEY_ID")
+    secret = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    if not (key_id and secret):
+        return None
+    return {
+        "key_id": key_id,
+        "secret": secret,
+        "region": os.environ.get("AWS_REGION") or "ap-south-1",
+        "model": os.environ.get("BEDROCK_MODEL_ID") or "amazon.nova-lite-v1:0",
+    }
+
+
+def _bedrock_narrate(question: str, verdict_line: str, template_notes: str) -> str:
+    """Rewrite the engine's template narration via Bedrock. Never raises.
+
+    The verdict is decided by the engine and passed in fixed — Bedrock only
+    rewords it. Any failure returns "" so the caller falls back to the
+    template narration silently.
+    """
+    cfg = _bedrock_config()
+    if not cfg:
+        return ""
+    try:
+        import boto3
+        client = boto3.client(
+            "bedrock-runtime",
+            region_name=cfg["region"],
+            aws_access_key_id=cfg["key_id"],
+            aws_secret_access_key=cfg["secret"],
+        )
+        prompt = (
+            "You are the narrator for Astroman.AI, a KP horary astrology app. "
+            "The astrology engine has already decided the verdict below. NEVER change, "
+            "soften, or question the verdict. Your only job is to say it in warm, plain, "
+            "simple English for a young person who knows nothing about astrology.\n\n"
+            f"Question: {question}\n"
+            f"Verdict: {verdict_line}\n"
+            f"Engine notes: {template_notes}\n\n"
+            "Rules: 3-5 short sentences. No astrology jargon. No remedies, gemstones, "
+            "or rituals. No exaggeration and no guarantees beyond what the verdict says. "
+            "Start with the verdict in plain words."
+        )
+        resp = client.converse(
+            modelId=cfg["model"],
+            messages=[{"role": "user", "content": [{"text": prompt}]}],
+            inferenceConfig={"maxTokens": 300, "temperature": 0.7},
+        )
+        parts = resp.get("output", {}).get("message", {}).get("content", [])
+        text = "".join(
+            p.get("text", "") for p in parts if isinstance(p, dict)
+        ).strip()
+        return text
+    except Exception:
+        return ""
+
+
 def _narration_text(result: dict) -> str:
     """Build a human-readable narration from the engine result.
 
@@ -120,6 +178,21 @@ def ask(req: AskRequest):
         result = {"verdict": "UNANSWERABLE", "modifiers": [],
                   "notes": "The chart could not be cast for that city."}
 
+    narration = _narration_text(result)
+
+    # Bedrock narration (optional): rewords the template notes, never the verdict.
+    # Used only when Bedrock is configured AND no Gemini key is set (Gemini keeps
+    # priority if the user ever adds a fresh key). Any failure falls back to the
+    # template silently — verdicts never depend on narration.
+    if _bedrock_config() and not key:
+        improved = _bedrock_narrate(
+            req.question.strip(),
+            _display_verdict(result),
+            narration,
+        )
+        if improved:
+            narration = improved
+
     # Make the result JSON-safe (engine may include non-serializable objects)
     safe_result = {}
     for k, v in result.items():
@@ -133,7 +206,7 @@ def ask(req: AskRequest):
     return AskResponse(
         verdict=_display_verdict(result),
         modifiers=result.get("modifiers") or [],
-        narration=_narration_text(result),
+        narration=narration,
         question=req.question.strip(),
         city=req.city.strip() or "Shimla",
         number=int(req.horary_number),
