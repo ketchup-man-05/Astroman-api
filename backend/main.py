@@ -45,6 +45,14 @@ class AskRequest(BaseModel):
     horary_number: int = Field(..., ge=1, le=249)
 
 
+class FollowupRequest(BaseModel):
+    question: str = Field(..., min_length=3, max_length=500)
+    verdict: str = Field(..., min_length=1, max_length=100)
+    narration: str = Field(default="", max_length=4000)
+    timing: str = Field(default="", max_length=2000)
+    followup: str = Field(..., min_length=3, max_length=500)
+
+
 class AskResponse(BaseModel):
     verdict: str
     modifiers: list = []
@@ -122,6 +130,66 @@ def _bedrock_narrate(question: str, verdict_line: str, template_notes: str) -> s
         return ""
 
 
+def _bedrock_followup(question: str, verdict_line: str, narration: str,
+                      timing: str, followup: str) -> str:
+    """Answer a follow-up about an EXISTING reading via Bedrock. Never raises.
+
+    The verdict is fixed by the engine and has already been shown to the
+    user. This only explains/discusses that reading — it must never give a
+    new verdict. Any failure returns "" so the caller can answer honestly
+    that follow-ups are unavailable right now.
+    """
+    cfg = _bedrock_config()
+    if not cfg:
+        return ""
+    try:
+        import boto3
+        client = boto3.client(
+            "bedrock-runtime",
+            region_name=cfg["region"],
+            aws_access_key_id=cfg["key_id"],
+            aws_secret_access_key=cfg["secret"],
+        )
+        prompt = (
+            "You are the follow-up voice for Astroman.AI, a KP horary astrology "
+            "app. A reading has already been given and is FIXED below. The user "
+            "is asking a follow-up question about THAT reading.\n\n"
+            f"Original question: {question}\n"
+            f"Verdict (fixed, already shown): {verdict_line}\n"
+            f"Reading given to the user: {narration}\n"
+            f"Timing from the reading: {timing or '(none given)'}\n\n"
+            f"User follow-up: {followup}\n\n"
+            "Rules:\n"
+            "- Answer ONLY about this reading: explain the verdict, the reading, "
+            "or its timing in warm, plain, simple English for a young person who "
+            "knows nothing about astrology.\n"
+            "- NEVER change, soften, reverse, or question the verdict. NEVER give "
+            "a new verdict or a yes/no answer to a new question.\n"
+            "- If the follow-up is actually a NEW question about a different "
+            "matter (not about this reading), reply briefly and warmly starting "
+            "with 'That needs its own chart.' and explain that a new question "
+            "needs a fresh number and chart, so they should use the Ask a New "
+            "Question button. Do not answer the new question.\n"
+            "- Use ONLY the facts in the reading above. No astrology jargon, no "
+            "invented planetary reasons, no remedies, gemstones, or rituals, no "
+            "guarantees. If the reading does not say something, say that honestly "
+            "instead of inventing it.\n"
+            "- Keep it short: 2-4 short sentences."
+        )
+        resp = client.converse(
+            modelId=cfg["model"],
+            messages=[{"role": "user", "content": [{"text": prompt}]}],
+            inferenceConfig={"maxTokens": 300, "temperature": 0.7},
+        )
+        parts = resp.get("output", {}).get("message", {}).get("content", [])
+        text = "".join(
+            p.get("text", "") for p in parts if isinstance(p, dict)
+        ).strip()
+        return text
+    except Exception:
+        return ""
+
+
 def _narration_text(result: dict) -> str:
     """Build a human-readable narration from the engine result.
 
@@ -155,7 +223,7 @@ def root():
     return {
         "name": "Astroman AI API",
         "version": "1.0.0",
-        "endpoints": ["/health", "/ask"],
+        "endpoints": ["/health", "/ask", "/followup"],
     }
 
 
@@ -216,3 +284,21 @@ def ask(req: AskRequest):
         cast_at=datetime.now(IST).strftime("%-d %b %Y, %-I:%M %p IST"),
         result=safe_result,
     )
+
+
+@app.post("/followup")
+def followup(req: FollowupRequest):
+    """Follow-up about an existing reading. Explains the reading only —
+    never casts a chart and never gives a new verdict. Follow-ups are part
+    of the reading the user already got, so no quota is involved here (the
+    frontend quota counts full questions only)."""
+    answer = _bedrock_followup(
+        req.question.strip(),
+        req.verdict.strip(),
+        req.narration.strip(),
+        req.timing.strip(),
+        req.followup.strip(),
+    )
+    if not answer:
+        return {"answer": "", "available": False}
+    return {"answer": answer, "available": True}
