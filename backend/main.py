@@ -174,7 +174,9 @@ def _bedrock_followup(question: str, verdict_line: str, narration: str,
             "invented planetary reasons, no remedies, gemstones, or rituals, no "
             "guarantees. If the reading does not say something, say that honestly "
             "instead of inventing it.\n"
-            "- Keep it short: 2-4 short sentences."
+            "- Keep it short: 2-4 short sentences.\n"
+            "- PLAIN TEXT ONLY: no markdown (no **bold**, no *italics*, no # "
+            "headings) and no emojis — your answer is shown as plain text."
         )
         resp = client.converse(
             modelId=cfg["model"],
@@ -185,6 +187,8 @@ def _bedrock_followup(question: str, verdict_line: str, narration: str,
         text = "".join(
             p.get("text", "") for p in parts if isinstance(p, dict)
         ).strip()
+        # The UI shows plain text — strip any markdown the model still adds
+        text = text.replace("**", "").replace("__", "")
         return text
     except Exception:
         return ""
